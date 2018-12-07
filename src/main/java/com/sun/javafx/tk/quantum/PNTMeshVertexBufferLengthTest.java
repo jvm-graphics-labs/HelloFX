@@ -1,13 +1,8 @@
-package hello;
+package com.sun.javafx.tk.quantum;
 
 import com.sun.javafx.geom.Vec3f;
-import com.sun.javafx.sg.prism.NGTriangleMesh;
-import com.sun.javafx.tk.quantum.ViewPainter;
-import com.sun.prism.impl.BaseMesh;
-import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.TimeUnit;
+import com.sun.prism.es2.Custom;
 import javafx.application.Application;
-import javafx.application.ConditionalFeature;
 import javafx.application.Platform;
 import javafx.scene.Group;
 import javafx.scene.PerspectiveCamera;
@@ -17,9 +12,10 @@ import javafx.scene.shape.TriangleMesh;
 import javafx.scene.shape.VertexFormat;
 import javafx.scene.transform.Rotate;
 import javafx.stage.Stage;
-import com.sun.javafx.tk.quantum.MasterTimer;
 import org.lwjgl.opengl.GL;
 import org.lwjgl.opengl.GL11;
+
+import java.util.concurrent.CountDownLatch;
 
 public class PNTMeshVertexBufferLengthTest {
 
@@ -225,120 +221,30 @@ public class PNTMeshVertexBufferLengthTest {
 //            }
 
 
-
+//            buildTriangleMesh(myApp.meshView, 0, 0, meshScale);
+//            buildTriangleMesh(myApp.meshView, 1, 1, meshScale);
+//            buildTriangleMesh(myApp.meshView, 2, 2, meshScale);
+//            buildTriangleMesh(myApp.meshView, 7, 7, meshScale);
             buildTriangleMesh(myApp.meshView, 50, 50, meshScale);
+
+
+//            custom.init());
 
             ViewPainter.begin_doPaint = GL::createCapabilities;
             ViewPainter.clear_doPaint = () -> {
                 GL11.glClearColor(1f, 0.5f, 1f, 1f);
                 GL11.glClear(GL11.GL_COLOR_BUFFER_BIT);
             };
-            ViewPainter.end_doPaint = () -> System.out.println("end");
+//            ViewPainter.end_doPaint = () -> System.out.println("end");
         }
     }
 
     public static void main(String[] args) throws InterruptedException {
 
+        Custom custom = Custom.INSTANCE;
+
         Application.launch(MyApp.class, (String[]) null);
 
         Platform.exit();
     }
-
-//
-//    @Before
-//    public void setupEach() {
-//        assumeTrue(Platform.isSupported(ConditionalFeature.SCENE3D));
-//    }
-
-    // ========================== TEST CASES ==========================
-    public static void testMeshWithZeroDiv() throws InterruptedException {
-            Scene scene = myApp.primaryStage.getScene();
-            buildTriangleMesh(myApp.meshView, 0, 0, meshScale);
-//        Thread.sleep(SLEEP_TIME);
-//
-//        NGTriangleMesh ngTriMesh = TriangleMeshShim.getNGMesh(myApp.meshView.getMesh());
-//        assertNotNull(ngTriMesh);
-//        BaseMesh baseMesh = NGTriangleMeshShim.test_getMesh(ngTriMesh);
-//        assertNotNull(baseMesh);
-//        // empty mesh (0 vertices)
-//        assertEquals(0, BaseMeshShim.test_getNumberOfVertices(baseMesh));
-//        assertTrue(BaseMeshShim.test_isVertexBufferNull(baseMesh));
-    }
-
-    public static void testMeshWithOneDiv() throws InterruptedException {
-            Scene scene = myApp.primaryStage.getScene();
-            buildTriangleMesh(myApp.meshView, 1, 1, meshScale);
-
-//            Thread.sleep(SLEEP_TIME);
-//
-//        NGTriangleMesh ngTriMesh = TriangleMeshShim.getNGMesh(myApp.meshView.getMesh());
-//        assertNotNull(ngTriMesh);
-//        BaseMesh baseMesh = NGTriangleMeshShim.test_getMesh(ngTriMesh);
-//        assertNotNull(baseMesh);
-//        // mesh with 6 vertices (2 triangles)
-//        assertEquals(6, BaseMeshShim.test_getNumberOfVertices(baseMesh));
-//        // vertexBuffer started with 4 vertices and grew by 6 (since 12.5% or 1/8th
-//        // of 4 is  less than 6). Size of vertex is 9 floats (10 * VERTEX_SIZE = 90)
-//        assertEquals(10 * VERTEX_SIZE, BaseMeshShim.test_getVertexBufferLength(baseMesh));
-    }
-
-//    @Test(timeout = 15000)
-//    public void testMeshWithTwoDiv() throws InterruptedException {
-//        Util.runAndWait(() -> {
-//            Scene scene = myApp.primaryStage.getScene();
-//            buildTriangleMesh(myApp.meshView, 2, 2, meshScale);
-//        });
-//        Thread.sleep(SLEEP_TIME);
-//
-//        NGTriangleMesh ngTriMesh = TriangleMeshShim.getNGMesh(myApp.meshView.getMesh());
-//        assertNotNull(ngTriMesh);
-//        BaseMesh baseMesh = NGTriangleMeshShim.test_getMesh(ngTriMesh);
-//        assertNotNull(baseMesh);
-//        // mesh with 24 vertices (8 triangles)
-//        assertEquals(24, BaseMeshShim.test_getNumberOfVertices(baseMesh));
-//        // vertexBuffer started with 9 vertices and grew by 6, 3 times, to a
-//        // capacity of 27 vertices (27 * VERTEX_SIZE = 243)
-//        assertEquals(27 * VERTEX_SIZE, BaseMeshShim.test_getVertexBufferLength(baseMesh));
-//    }
-//
-//    @Test(timeout = 15000)
-//    public void testMeshWithThreeDiv() throws InterruptedException {
-//        Util.runAndWait(() -> {
-//            Scene scene = myApp.primaryStage.getScene();
-//            buildTriangleMesh(myApp.meshView, 7, 7, meshScale);
-//        });
-//        Thread.sleep(SLEEP_TIME);
-//
-//        NGTriangleMesh ngTriMesh = TriangleMeshShim.getNGMesh(myApp.meshView.getMesh());
-//        assertNotNull(ngTriMesh);
-//        BaseMesh baseMesh = NGTriangleMeshShim.test_getMesh(ngTriMesh);
-//        assertNotNull(baseMesh);
-//        // mesh with 294 vertices (98 triangles)
-//        assertEquals(294, BaseMeshShim.test_getNumberOfVertices(baseMesh));
-//        // vertexBuffer started with 64 vertices and grew by 6 the first time
-//        // then crossed over to 12.5% growth rate at each subsequence increase
-//        // to a capacity of 325 vertices (325 * VERTEX_SIZE = 2925)
-//        assertEquals(325 * VERTEX_SIZE, BaseMeshShim.test_getVertexBufferLength(baseMesh));
-//    }
-//
-//    @Test(timeout = 15000)
-//    public void testMeshWithFiveDiv() throws InterruptedException {
-//        Util.runAndWait(() -> {
-//            Scene scene = myApp.primaryStage.getScene();
-//            buildTriangleMesh(myApp.meshView, 50, 50, meshScale);
-//        });
-//        Thread.sleep(SLEEP_TIME);
-//
-//        NGTriangleMesh ngTriMesh = TriangleMeshShim.getNGMesh(myApp.meshView.getMesh());
-//        assertNotNull(ngTriMesh);
-//        BaseMesh baseMesh = NGTriangleMeshShim.test_getMesh(ngTriMesh);
-//        assertNotNull(baseMesh);
-//        // mesh with 15000 vertices (5000 triangles)
-//        assertEquals(15000, BaseMeshShim.test_getNumberOfVertices(baseMesh));
-//        // vertexBuffer started with 2601 vertices and grew at 12.5% growth rate
-//        // at each subsequence increase to a capacity of 15201 vertices
-//        // (15201 * VERTEX_SIZE = 136809)
-//        assertEquals(15201 * VERTEX_SIZE, BaseMeshShim.test_getVertexBufferLength(baseMesh));
-//    }
-
 }
