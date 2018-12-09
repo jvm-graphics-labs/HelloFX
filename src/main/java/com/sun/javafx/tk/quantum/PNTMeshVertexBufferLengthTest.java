@@ -1,7 +1,9 @@
 package com.sun.javafx.tk.quantum;
 
 import com.sun.javafx.geom.Vec3f;
-import com.sun.prism.es2.Custom;
+import com.sun.prism.es2._WinGLContext;
+import com.sun.prism.es2._WinGLFactory;
+import com.sun.prism.es2._WinGLPixelFormat;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.scene.Group;
@@ -12,10 +14,16 @@ import javafx.scene.shape.TriangleMesh;
 import javafx.scene.shape.VertexFormat;
 import javafx.scene.transform.Rotate;
 import javafx.stage.Stage;
-import org.lwjgl.opengl.GL;
-import org.lwjgl.opengl.GL11;
+import org.lwjgl.system.MemoryUtil;
+import org.lwjgl.system.windows.User32;
+import org.lwjgl.system.windows.WNDCLASSEX;
+import org.lwjgl.system.windows.WindowProc;
 
+import java.nio.ByteBuffer;
 import java.util.concurrent.CountDownLatch;
+
+import static org.lwjgl.system.MemoryUtil.NULL;
+import static org.lwjgl.system.windows.WindowsLibrary.HINSTANCE;
 
 public class PNTMeshVertexBufferLengthTest {
 
@@ -230,18 +238,20 @@ public class PNTMeshVertexBufferLengthTest {
 
 //            custom.init());
 
-            ViewPainter.begin_doPaint = GL::createCapabilities;
-            ViewPainter.clear_doPaint = () -> {
-                GL11.glClearColor(1f, 0.5f, 1f, 1f);
-                GL11.glClear(GL11.GL_COLOR_BUFFER_BIT);
-            };
+//            ViewPainter.begin_doPaint = GL::createCapabilities;
+//            ViewPainter.clear_doPaint = () -> {
+//                GL11.glClearColor(1f, 0.5f, 1f, 1f);
+//                GL11.glClear(GL11.GL_COLOR_BUFFER_BIT);
+//            };
 //            ViewPainter.end_doPaint = () -> System.out.println("end");
         }
     }
 
     public static void main(String[] args) throws InterruptedException {
 
-        Custom custom = Custom.INSTANCE;
+        _WinGLFactory f = _WinGLFactory.INSTANCE;
+        _WinGLPixelFormat p = _WinGLPixelFormat.INSTANCE;
+        _WinGLContext c = _WinGLContext.INSTANCE;
 
         Application.launch(MyApp.class, (String[]) null);
 

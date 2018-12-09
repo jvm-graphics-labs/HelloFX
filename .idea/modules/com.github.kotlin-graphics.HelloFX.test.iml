@@ -6,7 +6,7 @@
         <compilerSettings />
         <compilerArguments>
           <option name="destination" value="$MODULE_DIR$/../../build/classes/kotlin/test" />
-          <option name="classpath" value="$MODULE_DIR$/../../build/classes/java/main;C:/Users/gbarbieri/IdeaProjects/HelloFX/build/classes/kotlin/main;C:/Users/gbarbieri/IdeaProjects/openjdk-jfx/build/sdk/lib/javafx-swt.jar;C:/Users/gbarbieri/IdeaProjects/openjdk-jfx/build/sdk/lib/javafx.base.jar;C:/Users/gbarbieri/IdeaProjects/openjdk-jfx/build/sdk/lib/javafx.controls.jar;C:/Users/gbarbieri/IdeaProjects/openjdk-jfx/build/sdk/lib/javafx.fxml.jar;C:/Users/gbarbieri/IdeaProjects/openjdk-jfx/build/sdk/lib/javafx.graphics.jar;C:/Users/gbarbieri/IdeaProjects/openjdk-jfx/build/sdk/lib/javafx.media.jar;C:/Users/gbarbieri/IdeaProjects/openjdk-jfx/build/sdk/lib/javafx.swing.jar;C:/Users/gbarbieri/IdeaProjects/openjdk-jfx/build/sdk/lib/javafx.web.jar;C:/Users/gbarbieri/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.10/b178c1501609c6e4ee8be635513cb023a466457d/kotlin-stdlib-1.3.10.jar;C:/Users/gbarbieri/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics/uno-sdk/5156f73d30a703a3f8ab4744c7e926d13efd54e1/7d45a72cc93703b96691547ffee96ec3cbac0bd6/uno-sdk-5156f73d30a703a3f8ab4744c7e926d13efd54e1.jar;C:/Users/gbarbieri/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics/glm/ee261bb6aa/e2c84a719dc0c511c3db6f3db7ac831fd04f1cf/glm-ee261bb6aa.jar;C:/Users/gbarbieri/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics.glm/glm/ee261bb6aa/60a0307d72a134a9b717ffe8e38a58d1004b0730/glm-ee261bb6aa.jar;C:/Users/gbarbieri/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics/kool/65887aeb21/58a3db266b35f3acea988f57e562df60779f9527/kool-65887aeb21.jar;C:/Users/gbarbieri/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jemalloc/3.2.1-SNAPSHOT/a7b99599619921dcd850007c3b1f506e82c5338e/lwjgl-jemalloc-3.2.1-SNAPSHOT.jar;C:/Users/gbarbieri/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.2.1-SNAPSHOT/d312c805bb61a833df46119f9c2201b8f27c86/lwjgl-opengl-3.2.1-SNAPSHOT.jar;C:/Users/gbarbieri/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jawt/3.2.1-SNAPSHOT/5ae59a388f48e0333d343361c36c642e58f6753/lwjgl-jawt-3.2.1-SNAPSHOT.jar;C:/Users/gbarbieri/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.2.1-SNAPSHOT/f458e525c255a91a6b8c3ffa07d4c66448797231/lwjgl-3.2.1-SNAPSHOT.jar;C:/Users/gbarbieri/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.10/1b19d99229dcedad7caf50534dce38fe82845269/kotlin-stdlib-common-1.3.10.jar;C:/Users/gbarbieri/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar;C:/Users/gbarbieri/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics.glm/glm-test/ee261bb6aa/c9a1a11b3048f243293fb82ddfc36ae32c62048d/glm-test-ee261bb6aa.jar;C:/Users/gbarbieri/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics/kotlin-unsigned/3538d42beb064972946c92fe839dc76e2a4d3ec2/87e3c3cf1dee815a4ff349922fd6183e097459bb/kotlin-unsigned-3538d42beb064972946c92fe839dc76e2a4d3ec2.jar" />
+          <option name="classpath" value="$MODULE_DIR$/../../../openjdk-jfx/build/sdk/lib/javafx-swt.jar;C:/Users/elect/IdeaProjects/openjdk-jfx/build/sdk/lib/javafx.base.jar;C:/Users/elect/IdeaProjects/openjdk-jfx/build/sdk/lib/javafx.controls.jar;C:/Users/elect/IdeaProjects/openjdk-jfx/build/sdk/lib/javafx.fxml.jar;C:/Users/elect/IdeaProjects/openjdk-jfx/build/sdk/lib/javafx.graphics.jar;C:/Users/elect/IdeaProjects/openjdk-jfx/build/sdk/lib/javafx.media.jar;C:/Users/elect/IdeaProjects/openjdk-jfx/build/sdk/lib/javafx.swing.jar;C:/Users/elect/IdeaProjects/openjdk-jfx/build/sdk/lib/javafx.web.jar;C:/Users/elect/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.10/b178c1501609c6e4ee8be635513cb023a466457d/kotlin-stdlib-1.3.10.jar;C:/Users/elect/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics/uno-sdk/5156f73d30a703a3f8ab4744c7e926d13efd54e1/7d45a72cc93703b96691547ffee96ec3cbac0bd6/uno-sdk-5156f73d30a703a3f8ab4744c7e926d13efd54e1.jar;C:/Users/elect/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics/glm/ee261bb6aa/e2c84a719dc0c511c3db6f3db7ac831fd04f1cf/glm-ee261bb6aa.jar;C:/Users/elect/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics.glm/glm/ee261bb6aa/60a0307d72a134a9b717ffe8e38a58d1004b0730/glm-ee261bb6aa.jar;C:/Users/elect/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics/kool/65887aeb21/58a3db266b35f3acea988f57e562df60779f9527/kool-65887aeb21.jar;C:/Users/elect/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jemalloc/3.2.1-SNAPSHOT/a7b99599619921dcd850007c3b1f506e82c5338e/lwjgl-jemalloc-3.2.1-SNAPSHOT.jar;C:/Users/elect/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.2.1-SNAPSHOT/d312c805bb61a833df46119f9c2201b8f27c86/lwjgl-opengl-3.2.1-SNAPSHOT.jar;C:/Users/elect/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jawt/3.2.1-SNAPSHOT/5ae59a388f48e0333d343361c36c642e58f6753/lwjgl-jawt-3.2.1-SNAPSHOT.jar;C:/Users/elect/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.2.1-SNAPSHOT/f458e525c255a91a6b8c3ffa07d4c66448797231/lwjgl-3.2.1-SNAPSHOT.jar;C:/Users/elect/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.10/1b19d99229dcedad7caf50534dce38fe82845269/kotlin-stdlib-common-1.3.10.jar;C:/Users/elect/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar;C:/Users/elect/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics.glm/glm-test/ee261bb6aa/c9a1a11b3048f243293fb82ddfc36ae32c62048d/glm-test-ee261bb6aa.jar;C:/Users/elect/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics/kotlin-unsigned/3538d42beb064972946c92fe839dc76e2a4d3ec2/87e3c3cf1dee815a4ff349922fd6183e097459bb/kotlin-unsigned-3538d42beb064972946c92fe839dc76e2a4d3ec2.jar" />
           <option name="noStdlib" value="true" />
           <option name="noReflect" value="true" />
           <option name="moduleName" value="HelloFX" />
@@ -14,8 +14,8 @@
           <option name="loadBuiltInsFromDependencies" value="true" />
           <option name="friendPaths">
             <array>
-              <option value="$MODULE_DIR$/../../build/classes/java/main" />
               <option value="$MODULE_DIR$/../../build/classes/kotlin/main" />
+              <option value="$MODULE_DIR$/../../build/classes/java/main" />
             </array>
           </option>
           <option name="languageVersion" value="1.3" />
@@ -36,28 +36,20 @@
     <content url="file://$MODULE_DIR$/../../src/test" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../openjdk-jfx/build/sdk/lib/javafx.base.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../openjdk-jfx/build/sdk/lib/javafx.swing.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="module" module-name="com.github.kotlin-graphics.HelloFX.main" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../../openjdk-jfx/build/sdk/lib/javafx.web.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../openjdk-jfx/build/sdk/lib/javafx.media.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -84,7 +76,16 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../openjdk-jfx/build/sdk/lib/javafx.media.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../openjdk-jfx/build/sdk/lib/javafx.swing.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../openjdk-jfx/build/sdk/lib/javafx.base.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -99,7 +100,6 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module" module-name="com.github.kotlin-graphics.HelloFX.main" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
@@ -121,8 +121,8 @@
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.github.kotlin-graphics:vkk:9bb5abbc9ddfe51b9d0e1c4c1b8b88fcfa07c078" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.github.kotlin-graphics:gli:ea878d63a9faf4d90cf1a065c0f37479aa814153" level="project" />
     <orderEntry type="library" name="Gradle: org.lwjgl:lwjgl:3.2.1-SNAPSHOT" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.github.kotlin-graphics.glm:glm:ee261bb6aa553371dcf5971c7d5c666ccd7be0a3" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.github.kotlin-graphics.glm:glm:ee261bb6aa553371dcf5971c7d5c666ccd7be0a3" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
     <orderEntry type="library" name="Gradle: com.github.kotlin-graphics.glm:glm-test:ee261bb6aa" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: io.kotlintest:kotlintest-core:3.1.10" level="project" />
