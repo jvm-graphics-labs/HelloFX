@@ -17,6 +17,8 @@ import javafx.scene.shape.TriangleMesh
 import javafx.scene.shape.VertexFormat
 import javafx.scene.transform.Rotate
 import javafx.stage.Stage
+import org.lwjgl.opengl.GL
+import org.lwjgl.opengl.GL11
 
 fun main() {
     Application.launch(MeshVertexBufferLengthTest::class.java)
@@ -62,11 +64,11 @@ class MeshVertexBufferLengthTest : Application() {
         //            buildTriangleMesh(meshView, 7, 7, meshScale);
         buildTriangleMesh(meshView, 50, 50, meshScale)
 
-        //            ViewPainter.begin_doPaint = GL::createCapabilities;
-        //            ViewPainter.clear_doPaint = () -> {
-        //                GL11.glClearColor(1f, 0.5f, 1f, 1f);
-        //                GL11.glClear(GL11.GL_COLOR_BUFFER_BIT);
-        //            };
+                    ViewPainter.begin = Runnable { GL.createCapabilities() }
+                    ViewPainter.clear_doPaint = Runnable {
+                        GL11.glClearColor(1f, 0.5f, 0f, 1f);
+                        GL11.glClear(GL11.GL_COLOR_BUFFER_BIT);
+                    };
         //            ViewPainter.end_doPaint = () -> System.out.println("end");
     }
 
