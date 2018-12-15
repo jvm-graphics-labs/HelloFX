@@ -1,18 +1,14 @@
 package com.sun.prism.es2
 
-import com.sun.isInvalid
 import com.sun.prism.es2.GLPixelFormat.Attributes.*
 import com.sun.prism.es2._X11GLFactory.MAX_GLX_ATTRS_LENGTH
 import glm_.L
 import glm_.bool
 import kool.adr
 import org.lwjgl.opengl.GLX13.*
-import org.lwjgl.system.MemoryStack.stackPush
 import org.lwjgl.system.MemoryUtil.NULL
 import org.lwjgl.system.linux.X11.*
 import org.lwjgl.system.linux.XSetWindowAttributes
-import org.lwjgl.system.windows.GDI32.ChoosePixelFormat
-import org.lwjgl.system.windows.User32.GetDC
 import java.nio.ByteBuffer
 
 object _X11GLPixelFormat {

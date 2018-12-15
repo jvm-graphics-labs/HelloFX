@@ -21,9 +21,7 @@ import org.lwjgl.opengl.GL
 import org.lwjgl.opengl.GL11C
 import org.lwjgl.opengl.GL11C.GL_COLOR_BUFFER_BIT
 
-fun main() {
-    Application.launch(MeshVertexBufferLengthTest::class.java)
-}
+fun main() = Application.launch(MeshVertexBufferLengthTest::class.java)
 
 class MeshVertexBufferLengthTest : Application() {
 
@@ -32,6 +30,7 @@ class MeshVertexBufferLengthTest : Application() {
 
     var primaryStage: Stage? = null
     lateinit var meshView: MeshView
+    var lwjglInitialized = false
 
     override fun start(primaryStage: Stage) {
         primaryStage.title = "PNTMeshVertexBufferLengthTest"
@@ -65,7 +64,10 @@ class MeshVertexBufferLengthTest : Application() {
         //            buildTriangleMesh(meshView, 7, 7, meshScale);
         buildTriangleMesh(meshView, 50, 50, meshScale)
 
-        ViewPainter.begin = Runnable { GL.createCapabilities() }
+        ViewPainter.begin = Runnable {
+            if (!lwjglInitialized)
+                GL.createCapabilities()
+        }
         ViewPainter.clear_doPaint = Runnable {
             GL11C.glClearColor(1f, 0.5f, 0f, 1f)
             GL11C.glClear(GL_COLOR_BUFFER_BIT)
