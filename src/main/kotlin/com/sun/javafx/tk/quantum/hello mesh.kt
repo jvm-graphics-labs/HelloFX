@@ -65,8 +65,10 @@ class MeshVertexBufferLengthTest : Application() {
         buildTriangleMesh(meshView, 50, 50, meshScale)
 
         ViewPainter.begin = Runnable {
-            if (!lwjglInitialized)
+            if (!lwjglInitialized) {
+                lwjglInitialized = true
                 GL.createCapabilities()
+            }
         }
         ViewPainter.clear_doPaint = Runnable {
             GL11C.glClearColor(1f, 0.5f, 0f, 1f)
