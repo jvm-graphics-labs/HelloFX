@@ -31,6 +31,7 @@ class MeshVertexBufferLengthTest : Application() {
 
     var primaryStage: Stage? = null
     lateinit var meshView: MeshView
+    var lwjglInitialized = false
 
     override fun start(primaryStage: Stage) {
         primaryStage.title = "PNTMeshVertexBufferLengthTest"
@@ -64,11 +65,16 @@ class MeshVertexBufferLengthTest : Application() {
         //            buildTriangleMesh(meshView, 7, 7, meshScale);
         buildTriangleMesh(meshView, 50, 50, meshScale)
 
-                    ViewPainter.begin = Runnable { GL.createCapabilities() }
-                    ViewPainter.clear_doPaint = Runnable {
-                        GL11.glClearColor(1f, 0.5f, 0f, 1f);
-                        GL11.glClear(GL11.GL_COLOR_BUFFER_BIT);
-                    };
+        ViewPainter.begin = Runnable {
+            if (!lwjglInitialized) {
+                lwjglInitialized = true
+                GL.createCapabilities()
+            }
+        }
+        ViewPainter.clear_doPaint = Runnable {
+            GL11.glClearColor(1f, 0.5f, 0f, 1f)
+            GL11.glClear(GL11.GL_COLOR_BUFFER_BIT)
+        }
         //            ViewPainter.end_doPaint = () -> System.out.println("end");
     }
 
