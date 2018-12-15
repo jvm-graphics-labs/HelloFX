@@ -24,6 +24,11 @@ typealias HBRUSH = Ptr
 typealias HWND = UInt
 typealias HMENU = Long
 
+typealias GLXContext = Long
+typealias GLXFBConfig = Long
+typealias Window = Long
+typealias Colormap = Long
+
 val HWND.isValid get() = L != MemoryUtil.NULL
 val HWND.isInvalid get() = L == MemoryUtil.NULL
 

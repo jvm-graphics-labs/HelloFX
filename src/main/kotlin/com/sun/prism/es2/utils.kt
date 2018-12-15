@@ -6,13 +6,19 @@ import glm_.*
 import kool.Buffer
 import kool.Ptr
 import kool.adr
+import org.lwjgl.PointerBuffer
+import org.lwjgl.opengl.GLX.glXDestroyContext
+import org.lwjgl.opengl.GLX.glXMakeCurrent
 import org.lwjgl.opengl.WGL.wglDeleteContext
 import org.lwjgl.opengl.WGL.wglMakeCurrent
 import org.lwjgl.system.MemoryStack
 import org.lwjgl.system.MemoryUtil.*
+import org.lwjgl.system.linux.X11.*
+import org.lwjgl.system.linux.XVisualInfo
 import org.lwjgl.system.windows.*
 import org.lwjgl.system.windows.GDI32.*
 import org.lwjgl.system.windows.User32.*
+import uno.awt.Display
 import uno.glfw.HWND
 import java.nio.ByteBuffer
 
@@ -92,15 +98,21 @@ fun MemoryStack.createDummyWindow(szAppName: String): HWND {
     return hWnd
 }
 
-fun printAndReleaseResources(hwnd: HWND? = null, hglrc: HGLRC = NULL, hdc: HDC = NULL, szAppName: String = "", message: String? = null) {
+internal fun printAndReleaseResources(display: Display, fbConfigList: PointerBuffer,
+                                      visualInfo: XVisualInfo? = null, win: Window = NULL,
+                                      ctx: GLXContext = NULL, cmap: Colormap = NULL,
+                                      message: String? = null) {
     message?.let(System.err::println)
-    wglMakeCurrent(NULL, NULL)
-    if (hglrc != NULL)
-        wglDeleteContext(hglrc)
-    if (hdc != NULL)
-        hwnd?.let {
-            ReleaseDC(hwnd.L, hdc)
-            DestroyWindow(hwnd.L)
-            UnregisterClass(szAppName, NULL)
-        }
+    if (display == NULL)
+        return
+    glXMakeCurrent(display, NULL, NULL);
+    if (fbConfigList[0] != NULL)
+        XFree(fbConfigList)
+    visualInfo?.adr?.let(::nXFree)
+    if (ctx != NULL)
+        glXDestroyContext(display, ctx)
+    if (win != NULL)
+        XDestroyWindow(display, win)
+    if (cmap != NULL)
+        XFreeColormap(display, cmap)
 }

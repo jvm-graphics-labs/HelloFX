@@ -30,7 +30,7 @@ dependencies {
             runtime "org.lwjgl:lwjgl$it:$lwjgl_version:natives-$lwjgl_natives"
     }
 
-    compile fileTree(dir: '../openjdk-jfx/build/sdk/lib', include: ['*.jar'])
+    compile fileTree(dir: '../openjfx/build/sdk/lib', include: ['*.jar'])
 }
 
 repositories {

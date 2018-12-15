@@ -6,7 +6,7 @@
         <compilerSettings />
         <compilerArguments>
           <option name="destination" value="$MODULE_DIR$/../../build/classes/kotlin/main" />
-          <option name="classpath" value="$MODULE_DIR$/../../../openjdk-jfx/build/sdk/lib/javafx-swt.jar;C:/Users/elect/IdeaProjects/openjdk-jfx/build/sdk/lib/javafx.base.jar;C:/Users/elect/IdeaProjects/openjdk-jfx/build/sdk/lib/javafx.controls.jar;C:/Users/elect/IdeaProjects/openjdk-jfx/build/sdk/lib/javafx.fxml.jar;C:/Users/elect/IdeaProjects/openjdk-jfx/build/sdk/lib/javafx.graphics.jar;C:/Users/elect/IdeaProjects/openjdk-jfx/build/sdk/lib/javafx.media.jar;C:/Users/elect/IdeaProjects/openjdk-jfx/build/sdk/lib/javafx.swing.jar;C:/Users/elect/IdeaProjects/openjdk-jfx/build/sdk/lib/javafx.web.jar;C:/Users/elect/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.10/b178c1501609c6e4ee8be635513cb023a466457d/kotlin-stdlib-1.3.10.jar;C:/Users/elect/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics/uno-sdk/5156f73d30a703a3f8ab4744c7e926d13efd54e1/7d45a72cc93703b96691547ffee96ec3cbac0bd6/uno-sdk-5156f73d30a703a3f8ab4744c7e926d13efd54e1.jar;C:/Users/elect/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics/glm/ee261bb6aa/e2c84a719dc0c511c3db6f3db7ac831fd04f1cf/glm-ee261bb6aa.jar;C:/Users/elect/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics.glm/glm/ee261bb6aa/60a0307d72a134a9b717ffe8e38a58d1004b0730/glm-ee261bb6aa.jar;C:/Users/elect/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics/kool/65887aeb21/58a3db266b35f3acea988f57e562df60779f9527/kool-65887aeb21.jar;C:/Users/elect/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jemalloc/3.2.1-SNAPSHOT/a7b99599619921dcd850007c3b1f506e82c5338e/lwjgl-jemalloc-3.2.1-SNAPSHOT.jar;C:/Users/elect/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.2.1-SNAPSHOT/d312c805bb61a833df46119f9c2201b8f27c86/lwjgl-opengl-3.2.1-SNAPSHOT.jar;C:/Users/elect/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jawt/3.2.1-SNAPSHOT/5ae59a388f48e0333d343361c36c642e58f6753/lwjgl-jawt-3.2.1-SNAPSHOT.jar;C:/Users/elect/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.2.1-SNAPSHOT/f458e525c255a91a6b8c3ffa07d4c66448797231/lwjgl-3.2.1-SNAPSHOT.jar;C:/Users/elect/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.10/1b19d99229dcedad7caf50534dce38fe82845269/kotlin-stdlib-common-1.3.10.jar;C:/Users/elect/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar;C:/Users/elect/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics.glm/glm-test/ee261bb6aa/c9a1a11b3048f243293fb82ddfc36ae32c62048d/glm-test-ee261bb6aa.jar;C:/Users/elect/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics/kotlin-unsigned/3538d42beb064972946c92fe839dc76e2a4d3ec2/87e3c3cf1dee815a4ff349922fd6183e097459bb/kotlin-unsigned-3538d42beb064972946c92fe839dc76e2a4d3ec2.jar" />
+          <option name="classpath" value="$MODULE_DIR$/../../../openjfx/build/sdk/lib/javafx.swing.jar:/home/elect/IdeaProjects/openjfx/build/sdk/lib/javafx.graphics.jar:/home/elect/IdeaProjects/openjfx/build/sdk/lib/javafx-swt.jar:/home/elect/IdeaProjects/openjfx/build/sdk/lib/javafx.base.jar:/home/elect/IdeaProjects/openjfx/build/sdk/lib/javafx.media.jar:/home/elect/IdeaProjects/openjfx/build/sdk/lib/javafx.fxml.jar:/home/elect/IdeaProjects/openjfx/build/sdk/lib/javafx.web.jar:/home/elect/IdeaProjects/openjfx/build/sdk/lib/javafx.controls.jar:/home/elect/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.10/b178c1501609c6e4ee8be635513cb023a466457d/kotlin-stdlib-1.3.10.jar:/home/elect/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics/uno-sdk/5156f73d30a703a3f8ab4744c7e926d13efd54e1/7d45a72cc93703b96691547ffee96ec3cbac0bd6/uno-sdk-5156f73d30a703a3f8ab4744c7e926d13efd54e1.jar:/home/elect/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics/glm/ee261bb6aa/e2c84a719dc0c511c3db6f3db7ac831fd04f1cf/glm-ee261bb6aa.jar:/home/elect/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics.glm/glm/ee261bb6aa/60a0307d72a134a9b717ffe8e38a58d1004b0730/glm-ee261bb6aa.jar:/home/elect/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics/kool/65887aeb21/58a3db266b35f3acea988f57e562df60779f9527/kool-65887aeb21.jar:/home/elect/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jemalloc/3.2.1-SNAPSHOT/624798b6e526689dfb3e120cb559cf66c9a1cf5e/lwjgl-jemalloc-3.2.1-SNAPSHOT.jar:/home/elect/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.2.1-SNAPSHOT/7bbbaa7409d7ab2df122b5236c5c8d2f23354093/lwjgl-opengl-3.2.1-SNAPSHOT.jar:/home/elect/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jawt/3.2.1-SNAPSHOT/5c95bf29c31cf4b7edf46ab889be033b61df1633/lwjgl-jawt-3.2.1-SNAPSHOT.jar:/home/elect/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.2.1-SNAPSHOT/68eea9f63fc9f0b11038c2ac74d3d6c326fd2687/lwjgl-3.2.1-SNAPSHOT.jar:/home/elect/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.10/1b19d99229dcedad7caf50534dce38fe82845269/kotlin-stdlib-common-1.3.10.jar:/home/elect/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/home/elect/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics.glm/glm-test/ee261bb6aa/c9a1a11b3048f243293fb82ddfc36ae32c62048d/glm-test-ee261bb6aa.jar:/home/elect/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics/kotlin-unsigned/3538d42beb064972946c92fe839dc76e2a4d3ec2/87e3c3cf1dee815a4ff349922fd6183e097459bb/kotlin-unsigned-3538d42beb064972946c92fe839dc76e2a4d3ec2.jar" />
           <option name="noStdlib" value="true" />
           <option name="noReflect" value="true" />
           <option name="moduleName" value="HelloFX" />
@@ -36,7 +36,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../openjdk-jfx/build/sdk/lib/javafx-swt.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../openjfx/build/sdk/lib/javafx.swing.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -45,7 +45,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../openjdk-jfx/build/sdk/lib/javafx.base.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../openjfx/build/sdk/lib/javafx.media.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -54,7 +54,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../openjdk-jfx/build/sdk/lib/javafx.media.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../openjfx/build/sdk/lib/javafx.fxml.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -63,7 +63,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../openjdk-jfx/build/sdk/lib/javafx.controls.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../openjfx/build/sdk/lib/javafx.web.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -72,7 +72,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../openjdk-jfx/build/sdk/lib/javafx.graphics.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../openjfx/build/sdk/lib/javafx.controls.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -81,7 +81,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../openjdk-jfx/build/sdk/lib/javafx.swing.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../openjfx/build/sdk/lib/javafx.graphics.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -90,7 +90,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../openjdk-jfx/build/sdk/lib/javafx.web.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../openjfx/build/sdk/lib/javafx-swt.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -99,7 +99,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../openjdk-jfx/build/sdk/lib/javafx.fxml.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../openjfx/build/sdk/lib/javafx.base.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -125,9 +125,7 @@
     <orderEntry type="library" name="Gradle: com.github.kotlin-graphics:kotlin-unsigned:3538d42beb064972946c92fe839dc76e2a4d3ec2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: io.kotlintest:kotlintest-assertions:3.1.10" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.3.10" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl-jemalloc:natives-windows:3.2.1-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl-jemalloc:natives-linux:3.2.1-SNAPSHOT" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl-opengl:natives-windows:3.2.1-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl-opengl:natives-linux:3.2.1-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl-glfw:3.2.1-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl-glfw:natives-linux:3.2.1-SNAPSHOT" level="project" />
@@ -136,7 +134,6 @@
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl-stb:3.2.1-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl-stb:natives-linux:3.2.1-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl-vulkan:3.2.1-SNAPSHOT" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl:natives-windows:3.2.1-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl:lwjgl:natives-linux:3.2.1-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jogamp.gluegen:gluegen-rt-main:2.3.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jogamp.jogl:jogl-all-main:2.3.2" level="project" />

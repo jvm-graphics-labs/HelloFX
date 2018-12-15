@@ -2,12 +2,14 @@
   <library name="Gradle: org.lwjgl:lwjgl-openal:natives-linux:3.2.1-SNAPSHOT">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.2.1-SNAPSHOT/c27671e2fc8fddc941fe332a4e345cfe5c4fa83f/lwjgl-openal-3.2.1-SNAPSHOT-natives-linux.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.2.1-SNAPSHOT/b15641a8bf122786bb0006f86c774cdbe31d7fa3/lwjgl-openal-3.2.1-SNAPSHOT-natives-linux.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.2.1-SNAPSHOT/5b8572539698f01f9a3da9767adb3ceb80ba2c13/lwjgl-openal-3.2.1-SNAPSHOT-sources.jar!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.2.1-SNAPSHOT/a9fd451591895b452bd6f05d996db8c7037321f1/lwjgl-openal-3.2.1-SNAPSHOT-sources.jar!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.2.1-SNAPSHOT/b38e7c951b32f52068979392722ff9f13d63c11a/lwjgl-openal-3.2.1-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.2.1-SNAPSHOT/9ed0659a7137393665a6ab96dd194845247694a7/lwjgl-openal-3.2.1-SNAPSHOT-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

@@ -1,9 +1,9 @@
 package com.sun.javafx.tk.quantum
 
 import com.sun.javafx.geom.Vec3f
-import com.sun.prism.es2._WinGLContext
-import com.sun.prism.es2._WinGLFactory
-import com.sun.prism.es2._WinGLPixelFormat
+import com.sun.prism.es2._X11GLContext
+import com.sun.prism.es2._X11GLFactory
+import com.sun.prism.es2._X11GLPixelFormat
 import glm_.d
 import glm_.f
 import glm_.vec2.Vec2
@@ -17,6 +17,9 @@ import javafx.scene.shape.TriangleMesh
 import javafx.scene.shape.VertexFormat
 import javafx.scene.transform.Rotate
 import javafx.stage.Stage
+import org.lwjgl.opengl.GL
+import org.lwjgl.opengl.GL11C
+import org.lwjgl.opengl.GL11C.GL_COLOR_BUFFER_BIT
 
 fun main() {
     Application.launch(MeshVertexBufferLengthTest::class.java)
@@ -62,11 +65,11 @@ class MeshVertexBufferLengthTest : Application() {
         //            buildTriangleMesh(meshView, 7, 7, meshScale);
         buildTriangleMesh(meshView, 50, 50, meshScale)
 
-        //            ViewPainter.begin_doPaint = GL::createCapabilities;
-        //            ViewPainter.clear_doPaint = () -> {
-        //                GL11.glClearColor(1f, 0.5f, 1f, 1f);
-        //                GL11.glClear(GL11.GL_COLOR_BUFFER_BIT);
-        //            };
+        ViewPainter.begin = Runnable { GL.createCapabilities() }
+        ViewPainter.clear_doPaint = Runnable {
+            GL11C.glClearColor(1f, 0.5f, 0f, 1f)
+            GL11C.glClear(GL_COLOR_BUFFER_BIT)
+        }
         //            ViewPainter.end_doPaint = () -> System.out.println("end");
     }
 
@@ -185,8 +188,8 @@ class MeshVertexBufferLengthTest : Application() {
             }
         }
 
-        val f = _WinGLFactory
-        val p = _WinGLPixelFormat
-        val c = _WinGLContext
+        val f = _X11GLFactory
+        val p = _X11GLPixelFormat
+        val c = _X11GLContext
     }
 }

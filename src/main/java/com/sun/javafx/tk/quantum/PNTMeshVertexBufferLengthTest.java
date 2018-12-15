@@ -1,9 +1,9 @@
 package com.sun.javafx.tk.quantum;
 
 import com.sun.javafx.geom.Vec3f;
-import com.sun.prism.es2._WinGLContext;
-import com.sun.prism.es2._WinGLFactory;
-import com.sun.prism.es2._WinGLPixelFormat;
+import com.sun.prism.es2._X11GLContext;
+import com.sun.prism.es2._X11GLFactory;
+import com.sun.prism.es2._X11GLPixelFormat;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.scene.Group;
@@ -14,16 +14,8 @@ import javafx.scene.shape.TriangleMesh;
 import javafx.scene.shape.VertexFormat;
 import javafx.scene.transform.Rotate;
 import javafx.stage.Stage;
-import org.lwjgl.system.MemoryUtil;
-import org.lwjgl.system.windows.User32;
-import org.lwjgl.system.windows.WNDCLASSEX;
-import org.lwjgl.system.windows.WindowProc;
 
-import java.nio.ByteBuffer;
 import java.util.concurrent.CountDownLatch;
-
-import static org.lwjgl.system.MemoryUtil.NULL;
-import static org.lwjgl.system.windows.WindowsLibrary.HINSTANCE;
 
 public class PNTMeshVertexBufferLengthTest {
 
@@ -249,9 +241,9 @@ public class PNTMeshVertexBufferLengthTest {
 
     public static void main(String[] args) throws InterruptedException {
 
-        _WinGLFactory f = _WinGLFactory.INSTANCE;
-        _WinGLPixelFormat p = _WinGLPixelFormat.INSTANCE;
-        _WinGLContext c = _WinGLContext.INSTANCE;
+        _X11GLFactory f = _X11GLFactory.INSTANCE;
+        _X11GLPixelFormat p = _X11GLPixelFormat.INSTANCE;
+        _X11GLContext c = _X11GLContext.INSTANCE;
 
         Application.launch(MyApp.class, (String[]) null);
 
