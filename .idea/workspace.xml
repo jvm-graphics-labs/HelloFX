@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b960d1e-176f-47ed-84ec-bac176f87c99" name="Default Changelist" comment="" />
+    <list default="true" id="9b960d1e-176f-47ed-84ec-bac176f87c99" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.github.kotlin-graphics.HelloFX.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.github.kotlin-graphics.HelloFX.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.github.kotlin-graphics.HelloFX.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.github.kotlin-graphics.HelloFX.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,11 +36,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="HelloFX" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="HelloFX" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
@@ -44,11 +43,6 @@
                 <item name="HelloFX" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="HelloFX" type="f1a62948:ProjectNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -62,7 +56,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/prism/es2/_WinGLPixelFormat.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
+            <state relative-caret-position="128">
               <caret line="12" column="85" selection-start-line="12" selection-start-column="85" selection-end-line="12" selection-end-column="85" />
               <folding>
                 <element signature="e#27#238#0" expanded="true" />
@@ -83,8 +77,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/hello mesh.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+            <state relative-caret-position="-196">
+              <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
               <folding>
                 <element signature="e#35#620#0" expanded="true" />
               </folding>
@@ -105,7 +99,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/javafx/tk/quantum/PNTMeshVertexBufferLengthTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="848">
+            <state relative-caret-position="480">
               <caret line="53" column="36" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -117,7 +111,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/hello fx.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="64">
               <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
               <folding>
                 <element signature="e#35#296#0" expanded="true" />
@@ -170,7 +164,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="linux" />
       </map>
     </option>
   </component>
@@ -222,6 +216,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -297,7 +292,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -421,9 +415,9 @@
       <list>
         <item itemvalue="Kotlin.com.sun.javafx.tk.quantum.Hello_meshKt" />
         <item itemvalue="Kotlin.com.sun.javafx.tk.quantum.Hello_fxKt" />
-        <item itemvalue="Application.PNTMeshVertexBufferLengthTest" />
         <item itemvalue="Gradle.HelloFX [assemble]" />
         <item itemvalue="Gradle.HelloFX [clean]" />
+        <item itemvalue="Application.PNTMeshVertexBufferLengthTest" />
       </list>
     </recent_temporary>
   </component>
@@ -474,7 +468,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53847000" />
+    <option name="totallyTimeSpent" value="54219000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -487,8 +481,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1273" y="0" width="1294" height="1407" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3249595" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3306321" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -496,7 +491,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.60518056" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.60518056" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39952904" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -626,66 +621,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics/kool/65887aeb21/1ac3c1505ea26d5daf5fde09ad076cf11c942474/kool-65887aeb21-sources.jar!/kool/constructors.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="81" column="16" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.2.1-SNAPSHOT/b9c6cbee7ae527a6a8de1f003799ed0ca1b8de47/lwjgl-3.2.1-SNAPSHOT-sources.jar!/org/lwjgl/system/APIUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="127" column="50" lean-forward="true" selection-start-line="127" selection-start-column="50" selection-end-line="127" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.2.1-SNAPSHOT/a24def318c379d5f987d64ddb4796de86a6c10e9/lwjgl-3.2.1-SNAPSHOT-sources.jar!/org/lwjgl/system/windows/User32.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="1070" column="15" selection-start-line="1070" selection-start-column="15" selection-end-line="1070" selection-end-column="15" />
-          <folding>
-            <element signature="e#47443#47444#0" expanded="true" />
-            <element signature="e#47472#47473#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.2.1-SNAPSHOT/b9c6cbee7ae527a6a8de1f003799ed0ca1b8de47/lwjgl-3.2.1-SNAPSHOT-sources.jar!/org/lwjgl/system/windows/WindowProc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics/uno-sdk/5156f73d30a703a3f8ab4744c7e926d13efd54e1/306d35c0b760d5c01300d68283e2564186c4124a/uno-sdk-5156f73d30a703a3f8ab4744c7e926d13efd54e1-sources.jar!/uno/glfw/direct fields.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.2.1-SNAPSHOT/b9c6cbee7ae527a6a8de1f003799ed0ca1b8de47/lwjgl-3.2.1-SNAPSHOT-sources.jar!/org/lwjgl/system/windows/GDI32.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="170" column="135" selection-start-line="170" selection-start-column="114" selection-end-line="170" selection-end-column="135" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.2.1-SNAPSHOT/b9c6cbee7ae527a6a8de1f003799ed0ca1b8de47/lwjgl-3.2.1-SNAPSHOT-sources.jar!/org/lwjgl/system/windows/PIXELFORMATDESCRIPTOR.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="267" column="23" lean-forward="true" selection-start-line="267" selection-start-column="23" selection-end-line="267" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../openjdk-jfx/build/sdk/lib/javafx.graphics.jar!/com/sun/prism/es2/GLPixelFormat.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../openjdk-jfx/build/sdk/lib/javafx.graphics.jar!/com/sun/prism/GraphicsPipeline.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="581">
@@ -954,9 +889,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/gears.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1209">
+          <caret line="119" column="23" selection-start-line="113" selection-start-column="19" selection-end-line="119" selection-end-column="23" />
+          <folding>
+            <element signature="e#35#173#0" expanded="true" />
+            <element signature="n#!!block;n#Gear#0" />
+            <element signature="e#17713#18241#0" />
+            <element signature="e#18215#18524#0" />
+            <element signature="n#!!block;n#Program#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/tmp.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <folding>
+            <element signature="e#35#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics.glm/glm/3c1bc0717a13de4ea9920355462eaed83ed45127/6cf2180a928c741267ac4f0d800b6d4b04d346d7/glm-3c1bc0717a13de4ea9920355462eaed83ed45127-sources.jar!/glm_/vec3/Vec3d.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="381" column="8" selection-start-line="381" selection-start-column="8" selection-end-line="381" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics/gln/39c1390fcbbbcfea7ad5fc3e80e19e0729373ecc/550daa5d07c3144dc6f041817bf0b4b4180f5e83/gln-39c1390fcbbbcfea7ad5fc3e80e19e0729373ecc-sources.jar!/gln/uniform/uniform.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="242" column="4" selection-start-line="242" selection-start-column="4" selection-end-line="242" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics.glm/glm/3c1bc0717a13de4ea9920355462eaed83ed45127/6cf2180a928c741267ac4f0d800b6d4b04d346d7/glm-3c1bc0717a13de4ea9920355462eaed83ed45127-sources.jar!/glm_/mat4x4/Mat4d.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="543" column="10" selection-start-line="543" selection-start-column="10" selection-end-line="543" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics.glm/glm/3c1bc0717a13de4ea9920355462eaed83ed45127/6cf2180a928c741267ac4f0d800b6d4b04d346d7/glm-3c1bc0717a13de4ea9920355462eaed83ed45127-sources.jar!/glm_/mat4x4/operators/mat4d_operators.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="152" column="48" selection-start-line="152" selection-start-column="48" selection-end-line="152" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics/gln/39c1390fcbbbcfea7ad5fc3e80e19e0729373ecc/550daa5d07c3144dc6f041817bf0b4b4180f5e83/gln-39c1390fcbbbcfea7ad5fc3e80e19e0729373ecc-sources.jar!/gln/program/program.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics/gln/39c1390fcbbbcfea7ad5fc3e80e19e0729373ecc/550daa5d07c3144dc6f041817bf0b4b4180f5e83/gln-39c1390fcbbbcfea7ad5fc3e80e19e0729373ecc-sources.jar!/gln/glf/semantic.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/prism/es2/_WinGLPixelFormat.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
+        <state relative-caret-position="128">
           <caret line="12" column="85" selection-start-line="12" selection-start-column="85" selection-end-line="12" selection-end-column="85" />
           <folding>
             <element signature="e#27#238#0" expanded="true" />
@@ -979,7 +980,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/javafx/tk/quantum/PNTMeshVertexBufferLengthTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="848">
+        <state relative-caret-position="480">
           <caret line="53" column="36" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -989,7 +990,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/hello fx.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="64">
           <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
           <folding>
             <element signature="e#35#296#0" expanded="true" />
@@ -999,8 +1000,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/hello mesh.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        <state relative-caret-position="-196">
+          <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
           <folding>
             <element signature="e#35#620#0" expanded="true" />
           </folding>

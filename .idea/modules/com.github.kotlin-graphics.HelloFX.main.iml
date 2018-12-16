@@ -54,15 +54,6 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../openjdk-jfx/build/sdk/lib/javafx.controls.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
           <root url="jar://$MODULE_DIR$/../../../openjdk-jfx/build/sdk/lib/javafx.fxml.jar!/" />
         </CLASSES>
         <JAVADOC />
@@ -72,7 +63,25 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../openjdk-jfx/build/sdk/lib/javafx.web.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
           <root url="jar://$MODULE_DIR$/../../../openjdk-jfx/build/sdk/lib/javafx.graphics.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../openjdk-jfx/build/sdk/lib/javafx.controls.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -96,23 +105,14 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../openjdk-jfx/build/sdk/lib/javafx.web.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.3.10" level="project" />
     <orderEntry type="library" name="Gradle: com.github.kotlin-graphics:uno-sdk:5156f73d30a703a3f8ab4744c7e926d13efd54e1" level="project" />
     <orderEntry type="library" name="Gradle: com.github.kotlin-graphics:glm:ee261bb6aa" level="project" />
     <orderEntry type="library" name="Gradle: com.github.kotlin-graphics.glm:glm:ee261bb6aa" level="project" />
     <orderEntry type="library" name="Gradle: com.github.kotlin-graphics:kool:65887aeb21" level="project" />
     <orderEntry type="library" name="Gradle: org.lwjgl:lwjgl-jemalloc:3.2.1-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Gradle: org.lwjgl:lwjgl-opengl:3.2.1-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.github.kotlin-graphics:gln:7a88384b82cb804f874b78adbd7caff4ddb2fc31" level="project" />
+    <orderEntry type="library" name="Gradle: org.lwjgl:lwjgl-opengl:3.2.1-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Gradle: org.lwjgl:lwjgl-jawt:3.2.1-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.github.kotlin-graphics:vkk:9bb5abbc9ddfe51b9d0e1c4c1b8b88fcfa07c078" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.github.kotlin-graphics:gli:ea878d63a9faf4d90cf1a065c0f37479aa814153" level="project" />
