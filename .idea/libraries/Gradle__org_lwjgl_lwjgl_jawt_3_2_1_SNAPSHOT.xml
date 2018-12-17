@@ -5,10 +5,9 @@
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jawt/3.2.1-SNAPSHOT/c2535c18e438b164aa32c4f85723c201a842deb1/lwjgl-jawt-3.2.1-SNAPSHOT-sources.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jawt/3.2.1-SNAPSHOT/32806550d4e9a6314a418bba6b8452851b74cb69/lwjgl-jawt-3.2.1-SNAPSHOT-sources.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jawt/3.2.1-SNAPSHOT/fafc1c68a9ac06ebabb168cb777df91288d3a5a1/lwjgl-jawt-3.2.1-SNAPSHOT-sources.jar!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jawt/3.2.1-SNAPSHOT/93914f76df52d63dbfbc4c4bfc0d3c6b8782fc2/lwjgl-jawt-3.2.1-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jawt/3.2.1-SNAPSHOT/c2535c18e438b164aa32c4f85723c201a842deb1/lwjgl-jawt-3.2.1-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jawt/3.2.1-SNAPSHOT/fafc1c68a9ac06ebabb168cb777df91288d3a5a1/lwjgl-jawt-3.2.1-SNAPSHOT-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

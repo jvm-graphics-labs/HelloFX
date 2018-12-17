@@ -1,9 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b960d1e-176f-47ed-84ec-bac176f87c99" name="Default Changelist" comment="">
+    <list default="true" id="9b960d1e-176f-47ed-84ec-bac176f87c99" name="Default Changelist" comment="added">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_kotlin_graphics_gli_42d5ecff1637632c823e230ae5cf3b618051e40f.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_kotlin_graphics_glm_glm_3c1bc0717a13de4ea9920355462eaed83ed45127.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_kotlin_graphics_gln_39c1390fcbbbcfea7ad5fc3e80e19e0729373ecc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_kotlin_graphics_kool_8d4292e2e2091ab7dfab7bbb66c4775229168df7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_kotlin_graphics_kotlin_unsigned_6ba3af41713dba2d271043311ae947b8a41a42a3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_kotlin_graphics_uno_sdk_24550988e24b8fc99428e599b62f2e81a6f0b334.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_kotlin_graphics_vkk_a0d037b48e.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_glfw_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_glfw_natives_linux_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_glfw_natives_windows_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_jawt_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_jemalloc_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_jemalloc_natives_linux_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_jemalloc_natives_windows_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_natives_linux_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_natives_windows_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_openal_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_openal_natives_linux_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_opengl_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_opengl_natives_linux_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_opengl_natives_windows_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_stb_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_stb_natives_linux_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_vulkan_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/gears.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/tmp.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_kotlin_graphics_gli_ea878d63a9faf4d90cf1a065c0f37479aa814153.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_kotlin_graphics_glm_ee261bb6aa.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_kotlin_graphics_glm_glm_ee261bb6aa.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_kotlin_graphics_glm_glm_ee261bb6aa553371dcf5971c7d5c666ccd7be0a3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_kotlin_graphics_glm_glm_test_ee261bb6aa.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_kotlin_graphics_gln_7a88384b82cb804f874b78adbd7caff4ddb2fc31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_kotlin_graphics_kool_65887aeb21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_kotlin_graphics_kotlin_unsigned_3538d42beb064972946c92fe839dc76e2a4d3ec2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_kotlin_graphics_uno_sdk_5156f73d30a703a3f8ab4744c7e926d13efd54e1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_kotlin_graphics_vkk_9bb5abbc9ddfe51b9d0e1c4c1b8b88fcfa07c078.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_univocity_univocity_parsers_2_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_kotlintest_kotlintest_assertions_3_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_kotlintest_kotlintest_core_3_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_reflect_1_3_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_reflect_1_3_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_glfw_3_2_1_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_glfw_3_2_1_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_glfw_natives_linux_3_2_1_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_jawt_3_2_1_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_jawt_3_2_1_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_jemalloc_natives_linux_3_2_1_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_jemalloc_natives_windows_3_2_1_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_natives_linux_3_2_1_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_natives_windows_3_2_1_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_openal_3_2_1_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_openal_natives_linux_3_2_1_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_opengl_natives_linux_3_2_1_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_opengl_natives_windows_3_2_1_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_stb_3_2_1_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_stb_natives_linux_3_2_1_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lwjgl_lwjgl_vulkan_3_2_1_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.github.kotlin-graphics.HelloFX.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.github.kotlin-graphics.HelloFX.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.github.kotlin-graphics.HelloFX.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.github.kotlin-graphics.HelloFX.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/sun/prism/es2/_WinGLContext.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sun/prism/es2/_WinGLContext.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -52,50 +111,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/prism/es2/_WinGLContext.kt">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/gears.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="186" column="1" selection-start-line="186" selection-start-column="1" selection-end-line="186" selection-end-column="1" />
+            <state relative-caret-position="837">
+              <caret line="145" column="5" lean-forward="true" selection-start-line="145" selection-start-column="5" selection-end-line="145" selection-end-column="5" />
               <folding>
-                <element signature="e#475#8607#2" />
+                <element signature="e#35#917#0" expanded="true" />
+                <element signature="e#3470#13577#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../openjdk-jfx/build/sdk/lib/src.zip!/javafx.graphics/com/sun/javafx/tk/quantum/PresentingPainter.java">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics/uno-sdk/24550988e24b8fc99428e599b62f2e81a6f0b334/434758ffb0031284757fffcc6779730c4b020167/uno-sdk-24550988e24b8fc99428e599b62f2e81a6f0b334-sources.jar!/uno/glfw/GlfwWindow.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="86" column="50" selection-start-line="86" selection-start-column="50" selection-end-line="86" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="jar://$PROJECT_DIR$/../openjdk-jfx/build/sdk/lib/src.zip!/javafx.graphics/com/sun/javafx/tk/quantum/ViewPainter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1191">
-              <caret line="320" column="23" selection-start-line="320" selection-start-column="23" selection-end-line="320" selection-end-column="23" />
+            <state relative-caret-position="592">
+              <caret line="493" column="15" selection-start-line="493" selection-start-column="15" selection-end-line="493" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../openjdk-jfx/build/sdk/lib/src.zip!/javafx.graphics/com/sun/prism/RenderTarget.java">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/tmp.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../openjdk-jfx/build/sdk/lib/src.zip!/javafx.graphics/com/sun/prism/es2/ES2SwapChain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="185" column="23" selection-start-line="185" selection-start-column="23" selection-end-line="185" selection-end-column="23" />
+            <state relative-caret-position="672">
+              <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -104,7 +146,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/hello mesh.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="384">
-              <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+              <caret line="39" column="47" lean-forward="true" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
               <folding>
                 <element signature="e#35#620#0" expanded="true" />
               </folding>
@@ -113,20 +155,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/javafx/tk/quantum/PNTMeshVertexBufferLengthTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="53" column="36" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="36" />
+            <state relative-caret-position="64">
+              <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -180,10 +221,14 @@
       <find>Maximum supported texture size: 16384</find>
       <find>getSinDivX</find>
       <find>ViewPainter</find>
+      <find>idle</find>
+      <find>dest.m</find>
     </findStrings>
     <replaceStrings>
       <replace>8</replace>
       <replace>nInitialize</replace>
+      <replace>val</replace>
+      <replace>res.v</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -200,7 +245,6 @@
         <option value="$PROJECT_DIR$/src/main/java/hello/PNTMeshVertexBufferLengthTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Custom.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sun/prism/es2/Custom.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/sun/prism/es2/_WinGLFactory.kt" />
         <option value="$PROJECT_DIR$/src/main/java/com/sun/prism/es2/winGLFactory.kt" />
         <option value="$PROJECT_DIR$/src/main/java/com/sun/prism/es2/Custom.kt" />
@@ -223,6 +267,9 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/hello fx.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/hello mesh.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/sun/prism/es2/_WinGLContext.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/tmp.kt" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/gears.kt" />
       </list>
     </option>
   </component>
@@ -312,15 +359,6 @@
             </path>
             <path>
               <item name="HelloFX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloFX" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="es2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloFX" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -343,6 +381,7 @@
       <recent name="com.sun.prism.es2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\elect\IdeaProjects\HelloFX\src\main\kotlin\com\sun\javafx\tk\quantum" />
       <recent name="C:\Users\elect\IdeaProjects\HelloFX\src\main\kotlin\com\sun\prism\es2" />
       <recent name="C:\Users\gbarbieri\IdeaProjects\HelloFX\src\main\java\hello" />
       <recent name="C:\Users\gbarbieri\IdeaProjects\HelloFX\src\main\kotlin" />
@@ -360,21 +399,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.com.sun.javafx.tk.quantum.Hello_meshKt">
-    <configuration name="PNTMeshVertexBufferLengthTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sun.javafx.tk.quantum.PNTMeshVertexBufferLengthTest" />
-      <module name="com.github.kotlin-graphics.HelloFX.main" />
-      <option name="VM_PARAMETERS" value="-Dprism.verbose=true -Dprism.order=es2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sun.javafx.tk.quantum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.com.sun.javafx.tk.quantum.GearsKt">
     <configuration name="HelloFX [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -413,6 +438,19 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="com.sun.javafx.tk.quantum.GearsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="com.github.kotlin-graphics.HelloFX.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.sun.javafx.tk.quantum.GearsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.sun.javafx.tk.quantum.Hello_fxKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="com.github.kotlin-graphics.HelloFX.main" />
       <option name="VM_PARAMETERS" />
@@ -440,19 +478,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PNTMeshVertexBufferLengthTest" />
       <item itemvalue="Gradle.HelloFX [clean]" />
       <item itemvalue="Gradle.HelloFX [assemble]" />
       <item itemvalue="Kotlin.com.sun.javafx.tk.quantum.Hello_meshKt" />
       <item itemvalue="Kotlin.com.sun.javafx.tk.quantum.Hello_fxKt" />
+      <item itemvalue="Kotlin.com.sun.javafx.tk.quantum.GearsKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.com.sun.javafx.tk.quantum.Hello_meshKt" />
+        <item itemvalue="Kotlin.com.sun.javafx.tk.quantum.GearsKt" />
         <item itemvalue="Kotlin.com.sun.javafx.tk.quantum.Hello_fxKt" />
+        <item itemvalue="Kotlin.com.sun.javafx.tk.quantum.Hello_meshKt" />
         <item itemvalue="Gradle.HelloFX [assemble]" />
         <item itemvalue="Gradle.HelloFX [clean]" />
-        <item itemvalue="Application.PNTMeshVertexBufferLengthTest" />
       </list>
     </recent_temporary>
   </component>
@@ -510,7 +548,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55405000" />
+    <option name="totallyTimeSpent" value="57788000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -664,20 +702,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.2.1-SNAPSHOT/b9c6cbee7ae527a6a8de1f003799ed0ca1b8de47/lwjgl-3.2.1-SNAPSHOT-sources.jar!/org/lwjgl/system/windows/WindowsLibrary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics/uno-sdk/5156f73d30a703a3f8ab4744c7e926d13efd54e1/306d35c0b760d5c01300d68283e2564186c4124a/uno-sdk-5156f73d30a703a3f8ab4744c7e926d13efd54e1-sources.jar!/uno/kotlin/util.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.10/27e50db5c984a3ee710c5556c877728a4e735971/kotlin-stdlib-common-1.3.10-sources.jar!/kotlin/text/Strings.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="415">
@@ -882,30 +906,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/gears.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1209">
-          <caret line="119" column="23" selection-start-line="113" selection-start-column="19" selection-end-line="119" selection-end-column="23" />
-          <folding>
-            <element signature="e#35#173#0" expanded="true" />
-            <element signature="n#!!block;n#Gear#0" />
-            <element signature="e#17713#18241#0" />
-            <element signature="e#18215#18524#0" />
-            <element signature="n#!!block;n#Program#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/tmp.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-          <folding>
-            <element signature="e#35#113#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics.glm/glm/3c1bc0717a13de4ea9920355462eaed83ed45127/6cf2180a928c741267ac4f0d800b6d4b04d346d7/glm-3c1bc0717a13de4ea9920355462eaed83ed45127-sources.jar!/glm_/vec3/Vec3d.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
@@ -913,23 +913,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics/gln/39c1390fcbbbcfea7ad5fc3e80e19e0729373ecc/550daa5d07c3144dc6f041817bf0b4b4180f5e83/gln-39c1390fcbbbcfea7ad5fc3e80e19e0729373ecc-sources.jar!/gln/uniform/uniform.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="242" column="4" selection-start-line="242" selection-start-column="4" selection-end-line="242" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics.glm/glm/3c1bc0717a13de4ea9920355462eaed83ed45127/6cf2180a928c741267ac4f0d800b6d4b04d346d7/glm-3c1bc0717a13de4ea9920355462eaed83ed45127-sources.jar!/glm_/mat4x4/Mat4d.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
+        <state relative-caret-position="8176">
           <caret line="543" column="10" selection-start-line="543" selection-start-column="10" selection-end-line="543" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics.glm/glm/3c1bc0717a13de4ea9920355462eaed83ed45127/6cf2180a928c741267ac4f0d800b6d4b04d346d7/glm-3c1bc0717a13de4ea9920355462eaed83ed45127-sources.jar!/glm_/mat4x4/operators/mat4d_operators.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
+        <state relative-caret-position="2256">
           <caret line="152" column="48" selection-start-line="152" selection-start-column="48" selection-end-line="152" selection-end-column="48" />
         </state>
       </provider>
@@ -958,52 +951,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/javafx/tk/quantum/PNTMeshVertexBufferLengthTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="53" column="36" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/hello fx.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding>
-            <element signature="e#35#296#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/hello mesh.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
-          <folding>
-            <element signature="e#35#620#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/prism/es2/_WinGLContext.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="186" column="1" selection-start-line="186" selection-start-column="1" selection-end-line="186" selection-end-column="1" />
-          <folding>
-            <element signature="e#475#8607#2" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../openjdk-jfx/build/sdk/lib/javafx.graphics.jar!/com/sun/prism/es2/ES2SwapChain.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -1018,10 +965,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../openjdk-jfx/build/sdk/lib/src.zip!/javafx.graphics/com/sun/prism/es2/ES2SwapChain.java">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/prism/es2/_WinGLContext.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="185" column="23" selection-start-line="185" selection-start-column="23" selection-end-line="185" selection-end-column="23" />
+        <state relative-caret-position="240">
+          <caret line="186" column="1" selection-start-line="186" selection-start-column="1" selection-end-line="186" selection-end-column="1" />
+          <folding>
+            <element signature="e#475#8607#2" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../openjdk-jfx/build/sdk/lib/src.zip!/javafx.graphics/com/sun/javafx/tk/quantum/PresentingPainter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="86" column="50" selection-start-line="86" selection-start-column="50" selection-end-line="86" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -1032,17 +989,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../openjdk-jfx/build/sdk/lib/src.zip!/javafx.graphics/com/sun/javafx/tk/quantum/PresentingPainter.java">
+    <entry file="jar://$PROJECT_DIR$/../openjdk-jfx/build/sdk/lib/src.zip!/javafx.graphics/com/sun/prism/es2/ES2SwapChain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="86" column="50" selection-start-line="86" selection-start-column="50" selection-end-line="86" selection-end-column="50" />
+        <state relative-caret-position="2432">
+          <caret line="185" column="23" selection-start-line="185" selection-start-column="23" selection-end-line="185" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/hello fx.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="e#35#296#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../openjdk-jfx/build/sdk/lib/src.zip!/javafx.graphics/com/sun/javafx/tk/quantum/ViewPainter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1191">
-          <caret line="320" column="23" selection-start-line="320" selection-start-column="23" selection-end-line="320" selection-end-column="23" />
+        <state relative-caret-position="679">
+          <caret line="288" column="74" selection-start-line="288" selection-start-column="74" selection-end-line="288" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics.glm/glm/3c1bc0717a13de4ea9920355462eaed83ed45127/6cf2180a928c741267ac4f0d800b6d4b04d346d7/glm-3c1bc0717a13de4ea9920355462eaed83ed45127-sources.jar!/glm_/mat4x4/Mat4x4t.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics/gln/39c1390fcbbbcfea7ad5fc3e80e19e0729373ecc/550daa5d07c3144dc6f041817bf0b4b4180f5e83/gln-39c1390fcbbbcfea7ad5fc3e80e19e0729373ecc-sources.jar!/gln/uniform/uniform.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="400" column="1" selection-start-line="397" selection-end-line="400" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/tmp.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/hello mesh.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="39" column="47" lean-forward="true" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+          <folding>
+            <element signature="e#35#620#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sun/javafx/tk/quantum/PNTMeshVertexBufferLengthTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics/uno-sdk/24550988e24b8fc99428e599b62f2e81a6f0b334/434758ffb0031284757fffcc6779730c4b020167/uno-sdk-24550988e24b8fc99428e599b62f2e81a6f0b334-sources.jar!/uno/glfw/GlfwWindow.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="493" column="15" selection-start-line="493" selection-start-column="15" selection-end-line="493" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/gears.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="145" column="5" lean-forward="true" selection-start-line="145" selection-start-column="5" selection-end-line="145" selection-end-column="5" />
+          <folding>
+            <element signature="e#35#917#0" expanded="true" />
+            <element signature="e#3470#13577#0" />
+          </folding>
         </state>
       </provider>
     </entry>
