@@ -4,11 +4,12 @@ import glm_.d
 import glm_.func.cos
 import glm_.func.sin
 import glm_.glm
+import glm_.mat3x3.Mat3
+import glm_.mat4x4.Mat4
 import glm_.mat4x4.Mat4d
 import glm_.vec2.Vec2i
 import glm_.vec3.Vec3d
 import glm_.vec4.Vec4
-import glm_.vec4.Vec4d
 import gln.glViewport
 import gln.glf.glf
 import gln.glf.semantic
@@ -19,13 +20,11 @@ import gln.vertexArray.glEnableVertexAttribArray
 import gln.vertexArray.glVertexAttribPointer
 import kool.DoubleBuffer
 import kool.IntBuffer
-import kool.toBuffer
 import kool.use
 import org.lwjgl.opengl.GL11C
 import org.lwjgl.opengl.GL15.glGenBuffers
 import org.lwjgl.opengl.GL15C.*
 import org.lwjgl.opengl.GL20C.glGetUniformLocation
-import org.lwjgl.opengl.GL30C.glBindVertexArray
 import org.lwjgl.opengl.GL30C.glGenVertexArrays
 import uno.glfw.GlfwWindow
 import uno.glfw.glfw
@@ -36,14 +35,23 @@ fun main() {
 
     glfw.init("3.3")
 
-    val window = GlfwWindow(1280, 720, "ImGui Lwjgl OpenGL3 example").apply {
+    val window = GlfwWindow(1280, 720, "Gears").apply {
         init()
     }
 
-    val gears = Gears()
+//    val gears = Gears()
+//
+//    window.loop {
+//        gears.idle()
+//        gears.reshape(window.size)
+//        gears.draw()
+//    }
+
+    val gears = Gears_()
 
     window.loop {
-        gears.reshape(window.size)
+        gears.idle()
+        gears.reshape(window.size.x, window.size.y)
         gears.draw()
     }
 }
@@ -60,7 +68,6 @@ class Gears {
     val view = Mat4d()
     var mvp = Mat4d()
 
-    //    private final Matrix3d normal = new Matrix3d()
     val light = Vec3d()
 
     var count = 0
@@ -75,9 +82,9 @@ class Gears {
         GL11C.glClearColor(1f, 0.5f, 0f, 1f)
     }
 
-//    fun idle() {
-//        angle += 2.0
-//    }
+    fun idle() {
+        angle += 2.0
+    }
 
     fun reshape(size: Vec2i) {
 
@@ -86,7 +93,7 @@ class Gears {
         glViewport(size)
         proj(glm.frustum(-1.0, 1.0, -h, h, 5.0, 100.0))
 
-        distance = if(size.x < size.y) 40.0 else 80.0
+        distance = if (size.x < size.y) 40.0 else 80.0
     }
 
     fun draw() {
@@ -97,7 +104,9 @@ class Gears {
         glClear(GL_COLOR_BUFFER_BIT or GL_DEPTH_BUFFER_BIT)
 
         // VIEW
-        view(1.0).translate(0.0, 0.0, -distance).rotateXYZ(viewRot * PI / 180)
+        view(1.0)
+                .translate(0.0, 0.0, -distance)
+                .rotateXYZ(viewRot * PI / 180)
 
         // LIGHT
         view.timesAssign(light(5.0, 5.0, 10.0)).normalizeAssign()
@@ -108,18 +117,18 @@ class Gears {
                 .translate(-3.0, -2.0, 0.0)
                 .rotateZ(angle * PI / 180)
         gear1.draw()
-//
-//        // GEAR 2
-//        mvp(1.0)
-//                .translate(3.1, -2.0, 0.0)
-//                .rotateZ((-2 * angle - 9) * PI / 180)
-//        gear2.draw()
-//
-//        // GEAR 3
-//        mvp(1.0)
-//                .translate(-3.1, 4.2, 0.0)
-//                .rotateZ((-2 * angle - 25) * PI / 180)
-//        gear3.draw()
+
+        // GEAR 2
+        mvp(1.0)
+                .translate(3.1, -2.0, 0.0)
+                .rotateZ((-2 * angle - 9) * PI / 180)
+        gear2.draw()
+
+        // GEAR 3
+        mvp(1.0)
+                .translate(-3.1, 4.2, 0.0)
+                .rotateZ((-2 * angle - 25) * PI / 180)
+        gear3.draw()
 
         count++
 
@@ -136,13 +145,13 @@ class Gears {
 
     fun Gear.draw() {
         mvp = view * mvp
-        glUniform(program.mvp3, mvp.normal())
+        glUniform(program.mvp3, Mat3(mvp.normal()))
         proj.times(mvp, mvp)
-        glUniform(program.mvp, mvp)
+        glUniform(program.mvp, Mat4(mvp))
         glUniform(program.color, color)
 
         glBindVertexArray(vao)
-//        glDrawArrays(GL_TRIANGLES, 0, vertexCount)
+        glDrawArrays(GL_TRIANGLES, 0, vertexCount)
     }
 }
 
