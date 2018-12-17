@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b960d1e-176f-47ed-84ec-bac176f87c99" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.github.kotlin-graphics.HelloFX.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.github.kotlin-graphics.HelloFX.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.github.kotlin-graphics.HelloFX.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.github.kotlin-graphics.HelloFX.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/sun/prism/es2/_WinGLContext.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sun/prism/es2/_WinGLContext.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -54,30 +53,57 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/prism/es2/_WinGLPixelFormat.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/prism/es2/_WinGLContext.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="12" column="85" selection-start-line="12" selection-start-column="85" selection-end-line="12" selection-end-column="85" />
+            <state relative-caret-position="240">
+              <caret line="186" column="1" selection-start-line="186" selection-start-column="1" selection-end-line="186" selection-end-column="1" />
               <folding>
-                <element signature="e#27#238#0" expanded="true" />
+                <element signature="e#475#8607#2" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/prism/es2/_WinGLContext.kt">
+        <entry file="jar://$PROJECT_DIR$/../openjdk-jfx/build/sdk/lib/src.zip!/javafx.graphics/com/sun/javafx/tk/quantum/PresentingPainter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+            <state relative-caret-position="391">
+              <caret line="86" column="50" selection-start-line="86" selection-start-column="50" selection-end-line="86" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="jar://$PROJECT_DIR$/../openjdk-jfx/build/sdk/lib/src.zip!/javafx.graphics/com/sun/javafx/tk/quantum/ViewPainter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1191">
+              <caret line="320" column="23" selection-start-line="320" selection-start-column="23" selection-end-line="320" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../openjdk-jfx/build/sdk/lib/src.zip!/javafx.graphics/com/sun/prism/RenderTarget.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../openjdk-jfx/build/sdk/lib/src.zip!/javafx.graphics/com/sun/prism/es2/ES2SwapChain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="185" column="23" selection-start-line="185" selection-start-column="23" selection-end-line="185" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/hello mesh.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-196">
+            <state relative-caret-position="384">
               <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
               <folding>
                 <element signature="e#35#620#0" expanded="true" />
@@ -192,11 +218,11 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/com/sun/prism/es2/gl.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/sun/prism/es2/helper classes.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/sun/prism/es2/_WinGLFactory.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/sun/prism/es2/_WinGLContext.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/sun/prism/es2/_WinGLPixelFormat.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/sun/prism/es2/utils.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/hello fx.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/hello mesh.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/sun/prism/es2/_WinGLContext.kt" />
       </list>
     </option>
   </component>
@@ -283,6 +309,15 @@
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="sun" type="462c0819:PsiDirectoryNode" />
               <item name="quantum" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HelloFX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloFX" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+              <item name="es2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HelloFX" type="b2602c69:ProjectViewProjectNode" />
@@ -464,11 +499,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544733921422</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="idea files">
+      <created>1544980818382</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1544980818382</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54219000" />
+    <option name="totallyTimeSpent" value="55405000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -491,7 +533,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.60518056" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45839873" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39952904" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -555,7 +597,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="up" />
-    <option name="LAST_COMMIT_MESSAGE" value="up" />
+    <MESSAGE value="idea files" />
+    <option name="LAST_COMMIT_MESSAGE" value="idea files" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -621,49 +664,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../openjdk-jfx/build/sdk/lib/javafx.graphics.jar!/com/sun/prism/GraphicsPipeline.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="130" selection-start-line="130" selection-end-line="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.10/eedd46031f8f5dc8c088e7d52f136d855fc1bddb/kotlin-stdlib-1.3.10-sources.jar!/kotlin/jvm/internal/Intrinsics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="117" selection-start-line="117" selection-end-line="117" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.2.1-SNAPSHOT/b9c6cbee7ae527a6a8de1f003799ed0ca1b8de47/lwjgl-3.2.1-SNAPSHOT-sources.jar!/org/lwjgl/system/Checks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="99" selection-start-line="99" selection-end-line="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.2.1-SNAPSHOT/b9c6cbee7ae527a6a8de1f003799ed0ca1b8de47/lwjgl-3.2.1-SNAPSHOT-sources.jar!/org/lwjgl/system/windows/User32.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="1094" selection-start-line="1094" selection-end-line="1094" />
-          <folding>
-            <element signature="e#47443#47444#0" expanded="true" />
-            <element signature="e#47472#47473#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.2.1-SNAPSHOT/b9c6cbee7ae527a6a8de1f003799ed0ca1b8de47/lwjgl-3.2.1-SNAPSHOT-sources.jar!/org/lwjgl/system/windows/WNDCLASSEX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
-          <folding>
-            <element signature="e#11105#11106#0" expanded="true" />
-            <element signature="e#11180#11181#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.2.1-SNAPSHOT/b9c6cbee7ae527a6a8de1f003799ed0ca1b8de47/lwjgl-3.2.1-SNAPSHOT-sources.jar!/org/lwjgl/system/windows/WindowsLibrary.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -861,13 +861,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../openjdk-jfx/build/sdk/lib/src.zip!/javafx.graphics/com/sun/javafx/tk/quantum/ViewPainter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5495">
-          <caret line="60" column="15" selection-start-line="60" selection-start-column="15" selection-end-line="60" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../openjdk-jfx/build/sdk/lib/javafx.graphics.jar!/com/sun/javafx/tk/quantum/QuantumRenderer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
@@ -965,13 +958,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/prism/es2/_WinGLContext.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1000,11 +986,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/hello mesh.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-196">
+        <state relative-caret-position="384">
           <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
           <folding>
             <element signature="e#35#620#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/prism/es2/_WinGLContext.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="186" column="1" selection-start-line="186" selection-start-column="1" selection-end-line="186" selection-end-column="1" />
+          <folding>
+            <element signature="e#475#8607#2" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../openjdk-jfx/build/sdk/lib/javafx.graphics.jar!/com/sun/prism/es2/ES2SwapChain.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../openjdk-jfx/build/sdk/lib/javafx.graphics.jar!/com/sun/javafx/tk/quantum/PresentingPainter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../openjdk-jfx/build/sdk/lib/src.zip!/javafx.graphics/com/sun/prism/es2/ES2SwapChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="185" column="23" selection-start-line="185" selection-start-column="23" selection-end-line="185" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../openjdk-jfx/build/sdk/lib/src.zip!/javafx.graphics/com/sun/prism/RenderTarget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../openjdk-jfx/build/sdk/lib/src.zip!/javafx.graphics/com/sun/javafx/tk/quantum/PresentingPainter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="86" column="50" selection-start-line="86" selection-start-column="50" selection-end-line="86" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../openjdk-jfx/build/sdk/lib/src.zip!/javafx.graphics/com/sun/javafx/tk/quantum/ViewPainter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1191">
+          <caret line="320" column="23" selection-start-line="320" selection-start-column="23" selection-end-line="320" selection-end-column="23" />
         </state>
       </provider>
     </entry>

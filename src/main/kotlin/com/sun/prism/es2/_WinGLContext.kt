@@ -178,5 +178,10 @@ object _WinGLContext {
 
             ctxInfo.adr
         }
+
+        WinGLContext.nUpdateViewport = GLContext.nUpdateViewport { x, y, w, h ->
+            val a = Thread.currentThread().getStackTrace()
+            a.forEach { println(it) }
+        }
     }
 }
