@@ -31,6 +31,8 @@ dependencies {
     }
 
     compile fileTree(dir: '../openjdk-jfx/build/sdk/lib', include: ['*.jar'])
+
+    compile "org.joml:joml:1.9.12"
 }
 
 repositories {
