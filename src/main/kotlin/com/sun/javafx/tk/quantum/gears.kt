@@ -1,15 +1,15 @@
 package com.sun.javafx.tk.quantum
 
 import glm_.d
+import glm_.f
 import glm_.func.cos
 import glm_.func.sin
 import glm_.glm
-import glm_.mat3x3.Mat3
-import glm_.mat4x4.Mat4
 import glm_.mat4x4.Mat4d
 import glm_.vec2.Vec2i
 import glm_.vec3.Vec3d
 import glm_.vec4.Vec4
+import gln.draw.glDrawArrays
 import gln.glViewport
 import gln.glf.glf
 import gln.glf.semantic
@@ -18,10 +18,9 @@ import gln.uniform.glUniform
 import gln.vertexArray.glBindVertexArray
 import gln.vertexArray.glEnableVertexAttribArray
 import gln.vertexArray.glVertexAttribPointer
-import kool.DoubleBuffer
+import kool.FloatBuffer
 import kool.IntBuffer
 import kool.use
-import org.lwjgl.opengl.GL11C
 import org.lwjgl.opengl.GL15.glGenBuffers
 import org.lwjgl.opengl.GL15C.*
 import org.lwjgl.opengl.GL20C.glGetUniformLocation
@@ -39,19 +38,10 @@ fun main() {
         init()
     }
 
-//    val gears = Gears()
-//
-//    window.loop {
-//        gears.idle()
-//        gears.reshape(window.size)
-//        gears.draw()
-//    }
-
-    val gears = Gears_()
+    val gears = Gears()
 
     window.loop {
-        gears.idle()
-        gears.reshape(window.size.x, window.size.y)
+        gears.reshape(window.size)
         gears.draw()
     }
 }
@@ -66,7 +56,7 @@ class Gears {
 
     val proj = glm.frustum(-1.0, 1.0, -1.0, 1.0, 5.0, 100.0)
     val view = Mat4d()
-    var mvp = Mat4d()
+    var model = Mat4d()
 
     val light = Vec3d()
 
@@ -78,56 +68,52 @@ class Gears {
     var distance = 40.0
     var angle = 0.0
 
-    init {
-        GL11C.glClearColor(1f, 0.5f, 0f, 1f)
-    }
-
-    fun idle() {
-        angle += 2.0
-    }
-
     fun reshape(size: Vec2i) {
 
         val h = size.aspect.d
 
         glViewport(size)
-        proj(glm.frustum(-1.0, 1.0, -h, h, 5.0, 100.0))
+        proj(glm.frustum(-1.0, 1.0, -1 / h, 1 / h, 5.0, 100.0))
 
         distance = if (size.x < size.y) 40.0 else 80.0
     }
 
     fun draw() {
 
+        angle += 2.0
+
         glDisable(GL_CULL_FACE)
         glEnable(GL_DEPTH_TEST)
 
         glClear(GL_COLOR_BUFFER_BIT or GL_DEPTH_BUFFER_BIT)
 
+        program.use()
+
         // VIEW
         view(1.0)
-                .translate(0.0, 0.0, -distance)
-                .rotateXYZ(viewRot * PI / 180)
+                .translateAssign(0.0, 0.0, -distance)
+                .rotateXYZassign(viewRot * PI / 180)
 
         // LIGHT
         view.timesAssign(light(5.0, 5.0, 10.0)).normalizeAssign()
         glUniform3f(program.light, light)
 
         // GEAR 1
-        mvp(1.0)
-                .translate(-3.0, -2.0, 0.0)
-                .rotateZ(angle * PI / 180)
+        model(1.0)
+                .translateAssign(-3.0, -2.0, 0.0)
+                .rotateZassign(angle * PI / 180)
         gear1.draw()
 
         // GEAR 2
-        mvp(1.0)
-                .translate(3.1, -2.0, 0.0)
-                .rotateZ((-2 * angle - 9) * PI / 180)
+        model(1.0)
+                .translateAssign(3.1, -2.0, 0.0)
+                .rotateZassign((-2 * angle - 9) * PI / 180)
         gear2.draw()
 
         // GEAR 3
-        mvp(1.0)
-                .translate(-3.1, 4.2, 0.0)
-                .rotateZ((-2 * angle - 25) * PI / 180)
+        model(1.0)
+                .translateAssign(-3.1, 4.2, 0.0)
+                .rotateZassign((-2 * angle - 25) * PI / 180)
         gear3.draw()
 
         count++
@@ -138,20 +124,16 @@ class Gears {
             startTime = theTime
             count = 0
         }
-
-        glEnable(GL_CULL_FACE)
-        glDisable(GL_DEPTH_TEST)
     }
 
     fun Gear.draw() {
-        mvp = view * mvp
-        glUniform(program.mvp3, Mat3(mvp.normal()))
-        proj.times(mvp, mvp)
-        glUniform(program.mvp, Mat4(mvp))
+        val mv = view * model
+        glUniform(program.mv3, mv.normal())
+        glUniform(program.mvp, proj * mv)
         glUniform(program.color, color)
 
         glBindVertexArray(vao)
-        glDrawArrays(GL_TRIANGLES, 0, vertexCount)
+        glDrawArrays(vertexCount)
     }
 }
 
@@ -373,7 +355,7 @@ class Gear(innerRadius: Double, outerRadius: Double, width: Double, teeth: Int, 
         val buffer = glGenBuffers()
 
         // VBO for vertex data
-        DoubleBuffer(vertices.size) { vertices[it] }.use {
+        FloatBuffer(vertices.size) { vertices[it].f }.use {
             glBindBuffer(GL_ARRAY_BUFFER, buffer)
             glBufferData(GL_ARRAY_BUFFER, it, GL_STATIC_DRAW)
             glVertexAttribPointer(glf.pos3_nor3)
@@ -387,7 +369,7 @@ class Program : GlslProgram(
             #version 330
 
             uniform mat4 mvp;
-            uniform mat3 mvp3;
+            uniform mat3 mv3;
 
             uniform vec3 light;
 
@@ -397,7 +379,7 @@ class Program : GlslProgram(
             out float shade;
 
             void main() {
-                vec3 normal_ = normalize(mvp3 * normal);
+                vec3 normal_ = normalize(mv3 * normal);
                 shade = max(dot(normal_, light), 0.0);
                 gl_Position = mvp * vec4(position, 1.0);
             }
@@ -417,7 +399,7 @@ class Program : GlslProgram(
             """.trimIndent()) {
 
     val mvp = glGetUniformLocation(name, "mvp")
-    val mvp3 = glGetUniformLocation(name, "mvp3")
+    val mv3 = glGetUniformLocation(name, "mv3")
     val light = glGetUniformLocation(name, "light")
     val color = glGetUniformLocation(name, "color")
 }

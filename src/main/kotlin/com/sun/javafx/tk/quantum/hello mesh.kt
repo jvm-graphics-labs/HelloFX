@@ -6,19 +6,26 @@ import com.sun.prism.es2._WinGLFactory
 import com.sun.prism.es2._WinGLPixelFormat
 import glm_.d
 import glm_.f
+import glm_.glm
 import glm_.vec2.Vec2
 import glm_.vec3.Vec3
+import glm_.vec4.Vec4
+import gln.glClearColor
 import javafx.application.Application
 import javafx.scene.Group
 import javafx.scene.PerspectiveCamera
 import javafx.scene.Scene
+import javafx.scene.control.Button
+import javafx.scene.control.Label
+import javafx.scene.layout.HBox
 import javafx.scene.shape.MeshView
 import javafx.scene.shape.TriangleMesh
 import javafx.scene.shape.VertexFormat
 import javafx.scene.transform.Rotate
 import javafx.stage.Stage
 import org.lwjgl.opengl.GL
-import org.lwjgl.opengl.GL11
+import org.lwjgl.opengl.GL11C.GL_COLOR_BUFFER_BIT
+import org.lwjgl.opengl.GL11C.glClear
 
 fun main() {
     Application.launch(MeshVertexBufferLengthTest::class.java)
@@ -26,17 +33,12 @@ fun main() {
 
 class MeshVertexBufferLengthTest : Application() {
 
-    // Application class. An instance is created and initialized before running
-    // the first test, and it lives through the execution of all tests.
-
-    var primaryStage: Stage? = null
-    lateinit var meshView: MeshView
-    var lwjglInitialized = false
+    val clearColor = Vec4(1f, 0.5f, 0f, 1f)
 
     override fun start(primaryStage: Stage) {
         primaryStage.title = "PNTMeshVertexBufferLengthTest"
         val triangleMesh = TriangleMesh(VertexFormat.POINT_NORMAL_TEXCOORD)
-        meshView = MeshView(triangleMesh)
+        val meshView = MeshView(triangleMesh)
         val rotateGrp = Group(meshView).apply {
             rotate = -30.0
             rotationAxis = Rotate.X_AXIS
@@ -46,36 +48,39 @@ class MeshVertexBufferLengthTest : Application() {
             translateY = 200.0
             translateZ = 100.0
         }
-        val root = Group(translateGrp)
 
-        this.primaryStage = primaryStage.apply {
+        val label = Label("clearColor: $clearColor")
+
+        val root = Group(translateGrp).apply {
+            children += HBox(20.0,
+                    Button("Change background").apply {
+                        setOnAction {
+                            for (i in 0..3)
+                                clearColor[i] = glm.linearRand(0f, 1f)
+                            label.text = "clearColor: $clearColor"
+                        }
+                    }, label)
+        }
+
+        primaryStage.apply {
             scene = Scene(root).apply {
                 camera = PerspectiveCamera()
             }
             x = 0.0
             y = 0.0
-            width = 400.0
-            height = 400.0
+            width = 1024.0
+            height = 768.0
             show()
         }
 
-        //            buildTriangleMesh(meshView, 0, 0, meshScale);
-        //            buildTriangleMesh(meshView, 1, 1, meshScale);
-        //            buildTriangleMesh(meshView, 2, 2, meshScale);
-        //            buildTriangleMesh(meshView, 7, 7, meshScale);
+        val subDiv = 50 // 0, 1, 2, 7, 50
         buildTriangleMesh(meshView, 50, 50, meshScale)
 
-        ViewPainter.begin = Runnable {
-            if (!lwjglInitialized) {
-                lwjglInitialized = true
-                GL.createCapabilities()
-            }
+        ViewPainter.init = Runnable { GL.createCapabilities() }
+        ViewPainter.clear = Runnable {
+            glClearColor(clearColor)
+            glClear(GL_COLOR_BUFFER_BIT)
         }
-        ViewPainter.clear_doPaint = Runnable {
-            GL11.glClearColor(1f, 0.5f, 0f, 1f)
-            GL11.glClear(GL11.GL_COLOR_BUFFER_BIT)
-        }
-        //            ViewPainter.end_doPaint = () -> System.out.println("end");
     }
 
     companion object {
