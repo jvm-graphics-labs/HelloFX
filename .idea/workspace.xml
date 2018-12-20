@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b960d1e-176f-47ed-84ec-bac176f87c99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/wtf/AnimationTimerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.github.kotlin-graphics.HelloFX.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.github.kotlin-graphics.HelloFX.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.github.kotlin-graphics.HelloFX.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.github.kotlin-graphics.HelloFX.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/gears.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/gears.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/hello gears.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/hello gears.kt" afterDir="false" />
@@ -62,11 +59,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/gears.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="337">
+              <caret line="93" column="63" selection-start-line="93" selection-start-column="27" selection-end-line="93" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -74,7 +71,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/hello mesh.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
+            <state relative-caret-position="500">
               <caret line="80" column="36" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
               <folding>
                 <element signature="e#35#842#0" expanded="true" />
@@ -88,19 +85,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/tmp.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1328">
-              <caret line="99" column="1" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
+            <state relative-caret-position="368">
+              <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/hello gears.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+            <state relative-caret-position="452">
+              <caret line="83" column="25" lean-forward="true" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
               <folding>
-                <element signature="e#35#552#0" expanded="true" />
+                <element signature="e#35#655#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.2.1-SNAPSHOT/2850b1733eda531b0d5fcc2b86086c322888ba7c/lwjgl-opengl-3.2.1-SNAPSHOT-sources.jar!/org/lwjgl/opengl/GL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="321" column="28" lean-forward="true" selection-start-line="321" selection-start-column="28" selection-end-line="321" selection-end-column="28" />
+              <folding>
+                <element signature="e#12294#12295#0" expanded="true" />
+                <element signature="e#12342#12343#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,7 +119,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/wtf/AnimationTimerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
+            <state relative-caret-position="500">
               <caret line="97" column="31" selection-start-line="97" selection-start-column="31" selection-end-line="97" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -156,8 +166,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>PrismSettings</find>
-      <find>functionProvider</find>
       <find>main</find>
       <find>SetPixelFormat</find>
       <find>RegisterClassEx</find>
@@ -186,6 +194,8 @@
       <find>createTas</find>
       <find>createTask</find>
       <find>javafx.animation.framerate</find>
+      <find>glass</find>
+      <find>in2</find>
     </findStrings>
     <replaceStrings>
       <replace>8</replace>
@@ -242,8 +252,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sun/javafx/tk/quantum/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sun/javafx/tk/quantum/AnimationTimerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/wtf/AnimationTimerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/gears.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/hello gears.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/gears.kt" />
       </list>
     </option>
   </component>
@@ -421,6 +431,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.sun.javafx.tk.quantum.GearsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="com.github.kotlin-graphics.HelloFX.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.sun.javafx.tk.quantum.GearsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.sun.javafx.tk.quantum.Hello_gearsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="com.github.kotlin-graphics.HelloFX.main" />
       <option name="VM_PARAMETERS" value="" />
@@ -439,10 +462,12 @@
       <item itemvalue="Application.AnimationTimerTest" />
       <item itemvalue="Application.AnimationTimerTest (1)" />
       <item itemvalue="Kotlin.com.sun.javafx.tk.quantum.Hello_gearsKt" />
+      <item itemvalue="Kotlin.com.sun.javafx.tk.quantum.GearsKt" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.com.sun.javafx.tk.quantum.Hello_gearsKt" />
+        <item itemvalue="Kotlin.com.sun.javafx.tk.quantum.GearsKt" />
         <item itemvalue="Application.AnimationTimerTest (1)" />
         <item itemvalue="Application.AnimationTimerTest" />
         <item itemvalue="Application.PNTMeshVertexBufferLengthTest" />
@@ -473,7 +498,7 @@
       <workItem from="1545037970226" duration="37647000" />
       <workItem from="1545217552955" duration="25000" />
       <workItem from="1545217627574" duration="57000" />
-      <workItem from="1545305724292" duration="1003000" />
+      <workItem from="1545305724292" duration="5696000" />
     </task>
     <task id="LOCAL-00001" summary="up">
       <created>1544356397296</created>
@@ -517,11 +542,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545140089243</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="hello gears wip">
+      <created>1545306741161</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1545306741162</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98266000" />
+    <option name="totallyTimeSpent" value="102959000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -544,7 +576,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295519" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6273023" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36836404" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -611,7 +643,8 @@
     <MESSAGE value="idea files" />
     <MESSAGE value="up" />
     <MESSAGE value="in progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="in progress" />
+    <MESSAGE value="hello gears wip" />
+    <option name="LAST_COMMIT_MESSAGE" value="hello gears wip" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -720,20 +753,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kotlin-graphics.glm/glm/ee261bb6aa/3353fab9f071c2a59d744f79cbad83ce842f8ab6/glm-ee261bb6aa-sources.jar!/glm_/primitive extensions.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2400">
-          <caret line="153" column="30" selection-start-line="153" selection-start-column="30" selection-end-line="153" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Byte.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7872">
-          <caret line="547" column="28" selection-start-line="547" selection-start-column="28" selection-end-line="547" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.2.1-SNAPSHOT/b9c6cbee7ae527a6a8de1f003799ed0ca1b8de47/lwjgl-3.2.1-SNAPSHOT-sources.jar!/org/lwjgl/system/MemoryUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26000">
@@ -986,13 +1005,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../openjdk-jfx/build/sdk/lib/src.zip!/javafx.graphics/com/sun/javafx/tk/quantum/QuantumRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="124" selection-start-line="124" selection-end-line="124" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../openjdk-jfx/build/sdk/lib/src.zip!/javafx.graphics/com/sun/javafx/tk/quantum/ViewPainter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="438">
@@ -1028,37 +1040,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/hello mesh.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="80" column="36" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
-          <folding>
-            <element signature="e#35#842#0" expanded="true" />
-            <element signature="n#!!block;n#Companion#0;n#!!block;n#MeshVertexBufferLengthTest#0" />
-            <element signature="n#!!block;n#buildTriangleMesh#0;n#!!block;n#Companion#0;n#!!block;n#MeshVertexBufferLengthTest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/tmp.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1328">
-          <caret line="99" column="1" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/wtf/AnimationTimerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="97" column="31" selection-start-line="97" selection-start-column="31" selection-end-line="97" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#Ball#0;class#AnimationTimerTest#0" />
-            <element signature="class#FrameStats#0;class#AnimationTimerTest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../openjdk-jfx/build/sdk/lib/src.zip!/javafx.graphics/com/sun/javafx/tk/quantum/QuantumToolkit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3024">
@@ -1086,20 +1067,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/gears.kt">
+    <entry file="jar://$PROJECT_DIR$/../openjdk-jfx/build/sdk/lib/src.zip!/javafx.graphics/com/sun/javafx/tk/quantum/QuantumRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+        <state relative-caret-position="1136">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/hello mesh.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="80" column="36" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
+          <folding>
+            <element signature="e#35#842#0" expanded="true" />
+            <element signature="n#!!block;n#Companion#0;n#!!block;n#MeshVertexBufferLengthTest#0" />
+            <element signature="n#!!block;n#buildTriangleMesh#0;n#!!block;n#Companion#0;n#!!block;n#MeshVertexBufferLengthTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../openjdk-jfx/build/sdk/lib/src.zip!/javafx.graphics/javafx/stage/Window.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="770" column="19" selection-start-line="770" selection-start-column="19" selection-end-line="770" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../openjdk-jfx/build/sdk/lib/src.zip!/javafx.graphics/javafx/scene/Scene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1232">
+          <caret line="171" column="13" selection-start-line="171" selection-start-column="13" selection-end-line="171" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/tmp.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wtf/AnimationTimerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="97" column="31" selection-start-line="97" selection-start-column="31" selection-end-line="97" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#Ball#0;class#AnimationTimerTest#0" />
+            <element signature="class#FrameStats#0;class#AnimationTimerTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.2.1-SNAPSHOT/2850b1733eda531b0d5fcc2b86086c322888ba7c/lwjgl-opengl-3.2.1-SNAPSHOT-sources.jar!/org/lwjgl/opengl/GL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="321" column="28" lean-forward="true" selection-start-line="321" selection-start-column="28" selection-end-line="321" selection-end-column="28" />
+          <folding>
+            <element signature="e#12294#12295#0" expanded="true" />
+            <element signature="e#12342#12343#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/hello gears.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+        <state relative-caret-position="452">
+          <caret line="83" column="25" lean-forward="true" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
           <folding>
-            <element signature="e#35#552#0" expanded="true" />
+            <element signature="e#35#655#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/sun/javafx/tk/quantum/gears.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="93" column="63" selection-start-line="93" selection-start-column="27" selection-end-line="93" selection-end-column="63" />
         </state>
       </provider>
     </entry>

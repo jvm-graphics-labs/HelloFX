@@ -8,6 +8,7 @@ import gln.glClearColor
 import javafx.animation.AnimationTimer
 import javafx.animation.TranslateTransition
 import javafx.application.Application
+import javafx.application.Platform
 import javafx.scene.Group
 import javafx.scene.PerspectiveCamera
 import javafx.scene.Scene
@@ -19,6 +20,7 @@ import javafx.scene.shape.Circle
 import javafx.stage.Stage
 import javafx.util.Duration
 import org.lwjgl.opengl.GL
+import org.lwjgl.opengl.GL11
 
 
 fun main() {
@@ -36,34 +38,17 @@ class HelloGears : Application() {
     lateinit var gears: Gears
     val size = Vec2i(1024, 768)
 
-    //Drawing a Circle
-    val circle = Circle().apply {
-        centerX = 150.0
-        centerY = 135.0
-        radius = 1.0
-        fill = Color.BROWN
-        strokeWidth = 20.0
-    }
-
     init {
-        TranslateTransition().apply {
-            duration = Duration.millis(1000.0)
-            node = circle
-            byX = 300.0
-            cycleCount = 50
-            isAutoReverse = false
-//            play()
-        }
         object : AnimationTimer() {
             override fun handle(now: Long) {}
-        }.start()
+        }//.start()
     }
 
     override fun start(primaryStage: Stage) {
         primaryStage.title = "Hello Gears"
         val label = Label("clearColor: $clearColor")
 
-        val root = Group(circle).apply {
+        val root = Group().apply {
             children += HBox(20.0,
                     Button("Change background").apply {
                         setOnAction {
@@ -91,11 +76,15 @@ class HelloGears : Application() {
         }
         ViewPainter.clear = Runnable {
 
+            GL.createCapabilities()
+
             untouchGL {
                 glClearColor(clearColor)
                 gears.reshape(size)
                 gears.draw()
             }
+
+//            Platform.runLater { PaintCollector.getInstance().addDirtyScene(primaryStage.scene.window.sc) }
         }
     }
 
