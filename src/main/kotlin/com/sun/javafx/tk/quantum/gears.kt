@@ -21,6 +21,7 @@ import gln.vertexArray.glVertexAttribPointer
 import kool.FloatBuffer
 import kool.IntBuffer
 import kool.use
+import org.lwjgl.opengl.GL11C
 import org.lwjgl.opengl.GL15.glGenBuffers
 import org.lwjgl.opengl.GL15C.*
 import org.lwjgl.opengl.GL20C.glGetUniformLocation
@@ -73,7 +74,7 @@ class Gears {
         val h = size.aspect.d
 
         glViewport(size)
-        proj(glm.frustum(-1.0, 1.0, -1 / h, 1 / h, 5.0, 100.0))
+        proj(glm.frustum(-1.0, 1.0, 1 / h, -1 / h, 5.0, 100.0))
 
         distance = if (size.x < size.y) 40.0 else 80.0
     }
@@ -83,6 +84,7 @@ class Gears {
         angle += 2.0
 
         glDisable(GL_CULL_FACE)
+//        glFrontFace(GL_CCW)
         glEnable(GL_DEPTH_TEST)
 
         glClear(GL_COLOR_BUFFER_BIT or GL_DEPTH_BUFFER_BIT)

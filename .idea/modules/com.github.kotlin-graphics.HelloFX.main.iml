@@ -55,15 +55,6 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../openjdk-jfx/build/sdk/lib/javafx.fxml.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
           <root url="jar://$MODULE_DIR$/../../../openjdk-jfx/build/sdk/lib/javafx.web.jar!/" />
         </CLASSES>
         <JAVADOC />
@@ -73,7 +64,33 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../openjdk-jfx/build/sdk/lib/javafx.swing.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
           <root url="jar://$MODULE_DIR$/../../../openjdk-jfx/build/sdk/lib/javafx.graphics.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../../../openjdk-jfx/build/sdk/lib/src.zip!/javafx.base" />
+          <root url="jar://$MODULE_DIR$/../../../openjdk-jfx/build/sdk/lib/src.zip!/javafx.controls" />
+          <root url="jar://$MODULE_DIR$/../../../openjdk-jfx/build/sdk/lib/src.zip!/javafx.fxml" />
+          <root url="jar://$MODULE_DIR$/../../../openjdk-jfx/build/sdk/lib/src.zip!/javafx.graphics" />
+          <root url="jar://$MODULE_DIR$/../../../openjdk-jfx/build/sdk/lib/src.zip!/javafx.media" />
+          <root url="jar://$MODULE_DIR$/../../../openjdk-jfx/build/sdk/lib/src.zip!/javafx.swing" />
+          <root url="jar://$MODULE_DIR$/../../../openjdk-jfx/build/sdk/lib/src.zip!/javafx.web" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../openjdk-jfx/build/sdk/lib/javafx.fxml.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -105,23 +122,14 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../openjdk-jfx/build/sdk/lib/javafx.swing.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.3.10" level="project" />
     <orderEntry type="library" name="Gradle: com.github.kotlin-graphics:uno-sdk:24550988e24b8fc99428e599b62f2e81a6f0b334" level="project" />
     <orderEntry type="library" name="Gradle: org.lwjgl:lwjgl-jemalloc:3.2.1-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Gradle: org.lwjgl:lwjgl-opengl:3.2.1-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Gradle: org.lwjgl:lwjgl-jawt:3.2.1-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Gradle: org.lwjgl:lwjgl-glfw:3.2.1-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Gradle: org.lwjgl:lwjgl:3.2.1-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.3.11" level="project" />
+    <orderEntry type="library" name="Gradle: org.lwjgl:lwjgl:3.2.1-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.10" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
     <orderEntry type="library" name="Gradle: com.github.kotlin-graphics:gln:39c1390fcbbbcfea7ad5fc3e80e19e0729373ecc" level="project" />
