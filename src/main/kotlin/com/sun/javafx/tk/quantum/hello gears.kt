@@ -9,6 +9,7 @@ import gln.glGetVec4i
 import gln.glScissor
 import gln.glViewport
 import gln.glf.semantic
+import javafx.animation.AnimationTimer
 import javafx.application.Application
 import javafx.application.Platform
 import javafx.scene.Group
@@ -42,6 +43,12 @@ class HelloGears : Application() {
     val clearColor = Vec4(1f, 0.5f, 0f, 1f)
     lateinit var gears: Gears
     val size = Vec2i(1024, 768)
+
+    init {
+        (object : AnimationTimer() {
+            override fun handle(p0: Long) {}
+        }).start()
+    }
 
     override fun start(primaryStage: Stage) {
         primaryStage.title = "Hello Gears"

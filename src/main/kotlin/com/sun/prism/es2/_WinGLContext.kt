@@ -8,7 +8,6 @@ import org.lwjgl.system.JNI.callPP
 import org.lwjgl.system.MemoryUtil.NULL
 import org.lwjgl.system.MemoryUtil.memASCII
 import org.lwjgl.system.windows.GDI32.SetPixelFormat
-import org.lwjgl.system.windows.WinBase
 import uno.kotlin.parseInt
 
 object _WinGLContext {
@@ -183,5 +182,9 @@ object _WinGLContext {
 //            val a = Thread.currentThread().getStackTrace()
 //            a.forEach { println(it) }
         }
+
+//        GLContext.nCreateFBO = GLContext.nCreateFBO {
+//
+//        }
     }
 }

@@ -73,7 +73,7 @@ class Gears {
         val h = size.aspect.d
 
         glViewport(size)
-        proj(glm.frustum(-1.0, 1.0, -1 / h, 1 / h, 5.0, 100.0))
+        proj(glm.frustum(-1.0, 1.0, 1 / h, -1 / h, 5.0, 100.0)) // upside down
 
         distance = if (size.x < size.y) 40.0 else 80.0
     }
