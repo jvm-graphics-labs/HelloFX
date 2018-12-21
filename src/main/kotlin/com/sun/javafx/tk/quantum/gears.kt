@@ -21,10 +21,12 @@ import gln.vertexArray.glVertexAttribPointer
 import kool.FloatBuffer
 import kool.IntBuffer
 import kool.use
+import org.lwjgl.opengl.GL11
+import org.lwjgl.opengl.GL11C
 import org.lwjgl.opengl.GL15.glGenBuffers
 import org.lwjgl.opengl.GL15C.*
 import org.lwjgl.opengl.GL20C.glGetUniformLocation
-import org.lwjgl.opengl.GL30C.glGenVertexArrays
+import org.lwjgl.opengl.GL30C.*
 import uno.glfw.GlfwWindow
 import uno.glfw.glfw
 import java.lang.Math.PI
@@ -41,6 +43,7 @@ fun main() {
     val gears = Gears()
 
     window.loop {
+        GL11C.glClearColor(1f, 0.5f, 0f, 1f)
         gears.reshape(window.size)
         gears.draw()
     }
@@ -82,8 +85,13 @@ class Gears {
 
         angle += 2.0
 
-        glDisable(GL_CULL_FACE)
+//        glDisable(GL_CULL_FACE)
+        println(GL11.glGetBoolean(GL11.GL_DEPTH_TEST))
         glEnable(GL_DEPTH_TEST)
+        println(GL11.glGetBoolean(GL11.GL_DEPTH_TEST))
+
+        println("framebuffer: " + glGetInteger(GL_DRAW_FRAMEBUFFER_BINDING))
+        println("type: " + glGetFramebufferAttachmentParameteri( GL_DRAW_FRAMEBUFFER,  GL_DEPTH_ATTACHMENT, GL_FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE))
 
         glClear(GL_COLOR_BUFFER_BIT or GL_DEPTH_BUFFER_BIT)
 
